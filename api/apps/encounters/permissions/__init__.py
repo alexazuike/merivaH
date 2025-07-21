@@ -1,0 +1,1 @@
+from .vitals import EncounterVitalsPermission

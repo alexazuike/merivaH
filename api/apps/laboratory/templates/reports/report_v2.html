@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Reports</title>
+    <style>
+        @font-face {
+            font-family: "Roboto";
+            src: url("/Roboto/Roboto-Regular.ttf") format('truetype');
+        }
+
+        body {
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        @page {
+            margin: 1cm;
+            size: A4;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse !important;
+            border-style: solid;
+            border: 2px black solid;
+        }
+
+        tr {
+            border: 1px black solid;
+        }
+
+        td {
+            border: 2px black solid;
+            padding: 4px;
+        }
+
+        .d-flex {
+            display: -ms-flexbox !important;
+            display: flex !important;
+        }
+
+        .align-content-center {
+            -ms-flex-line-pack: center !important;
+            align-content: center !important;
+        }
+
+        .align-items-center {
+            -ms-flex-align: center !important;
+            align-items: center !important;
+        }
+
+        .justify-content-between {
+            -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+        }
+
+
+        ul {
+            /* list-style: none; */
+            display: block;
+            list-style-type: none;
+        }
+
+        .tab {
+            margin-left: 15px;
+        }
+
+        .no-border-left {
+            border-left: 0px solid white;
+        }
+
+        .no-border-right {
+            border-right: 0px solid white;
+        }
+
+        .no-border-top {
+            border-top: 0px solid white;
+        }
+
+        .no-border-bottom {
+            border-bottom: 0px solid white;
+        }
+
+        .border-left {
+            border-left: 2px solid black;
+        }
+
+        .border-right {
+            border-right: 2px solid black;
+        }
+
+        .border-top {
+            border-top: 2px solid black;
+        }
+
+        .border-bottom {
+            border-bottom: 2px solid black;
+        }
+
+        .margin-bottom {
+            margin-bottom: 3px;
+        }
+
+        .margin-top {
+            margin-top: 10px
+        }
+
+        .results-container {
+            display: flex !important;
+            display: -ms-flexbox !important;
+            flex-wrap: wrap;
+        }
+
+        .result {
+            display: flex;
+            text-align: center;
+            padding: 5px;
+            width: 48.57%;
+            max-width: 48.57%;
+        }
+
+        .result-field {
+            width: 100%;
+            max-width: 100%;
+            flex-shrink: 2;
+        }
+        .capitalize {
+            text-transform: capitalize;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                color: #000;
+                background-color: #fff;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    {% if header %}
+    {{ header | safe }}
+    {% else %}
+    <div style="padding: 8%;">
+    </div>
+    {% endif %}
+
+    <main role="main" style="border: 3px solid black; padding: 3px;">
+        <table class="table align-middle">
+            <!-- Row A -->
+            <tr>
+                <td style="padding: 15px !important" colspan="5">
+                    <u><b>LAB. REF. NO: {{ asn }}</b></u>
+                </td>
+                <td colspan="3">DATE RECEIVED<br />
+                    {% now "SHORT_DATETIME_FORMAT" %}
+                </td>
+                <!-- <td rowspan="3">5</td> -->
+            </tr>
+            <!-- Row B -->
+            <tr>
+                <td colspan="2" style="padding: 15px !important" class="capitalize">
+                    SURNAME:<br />
+                    {{ patient.lastname }}
+                </td>
+                <td colspan="2" class="capitalize">
+                    OTHER NAMES:<br />
+                    {{ patient.middlename }} {{ patient.firstname }}
+                </td>
+                <td>
+                    AGE:<br />
+                    {{ patient.age }}
+                </td>
+                <td>
+                    SEX:<br />
+                    {{ patient.gender }}
+                </td>
+                <td colspan="2" class="capitalize">
+                    REG NO.:<br />
+                    {{ patient.uhid }}
+                </td>
+            </tr>
+            <!-- Row C -->
+            <tr>
+        </table>
+
+        {% for panel in lab_panel_orders %}
+        <div class="d-flex border-left border-right border-bottom border-top margin-top" style="padding: 10px;">
+            <div style="flex: 1;">
+                <b>PANEL: </b> {{ panel.panel.name }}
+                <span class="tab"><b>SPECIMEN:</b>{{ panel.panel.specimen.name|default_if_none:"---" }}</span>
+            </div>
+        </div>
+        <div class="results-container no-border-top">
+            <div class="result border-bottom border-left border-right">
+                <div class="result-field text-break"><b>TEST</b></div>
+                <div class="result-field"><b>RESULT</b></div>
+                <div class="result-field"><b>UNIT</b></div>
+                <div class="result-field"><b>REF. VALUE</b></div>
+            </div>
+            <div class="result border-bottom border-left border-right">
+                <div class="result-field text-break"><b>TEST</b></div>
+                <div class="result-field"><b>RESULT</b></div>
+                <div class="result-field"><b>UNIT</b></div>
+                <div class="result-field"><b>REF. VALUE</b></div>
+            </div>
+        </div>
+        <div class="results-container no-border-top">
+            {% for obv in panel.panel.obv %}
+            <div class="result border-left border-right border-bottom">
+                <div class="result-field text-break">{{ obv.name }}</div>
+                <div class="result-field">{{ obv.value }}</div>
+                <div class="result-field">{{ obv.uom }}</div>
+                <div class="result-field">
+                    {% for ref_range in obv.reference_range %}
+                    <span>{{ ref_range.name }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="text-break border-left border-right border-bottom border-top">
+            <div style="padding: 5px;"><b>Comment:</b>
+                <i>{{ panel.panel.comments|default_if_none:"---" }}</i>
+            </div>
+        </div>
+        {% endfor %}
+    </main>
+</body>
+
+</html>

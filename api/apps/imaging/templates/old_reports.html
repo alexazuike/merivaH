@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospital</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <style>
+    .d-flex {
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .align-items-center {
+      align-items: center;
+    }
+
+    .tablefit {
+      word-wrap: break-word;
+    }
+
+    .firsttable {
+      border: 0.5px solid #0c0c64;
+    }
+
+    .secondtable td {
+      border: none;
+      border-right: 0.5px solid #000;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .text-end {
+      text-align: end;
+    }
+
+    .mt-5,
+    .my-5 {
+      margin-top: 2rem;
+    }
+
+    .mt-4 {
+      margin-top: 2rem;
+    }
+
+    .mt-2,
+    .my-2 {
+      margin-top: 0.5rem;
+    }
+
+    .ml-2,
+    .mx-2 {
+      margin-left: 0.5rem;
+    }
+
+    .ml-4,
+    .mx-4 {
+      margin-left: 2rem;
+    }
+
+    .text-uppercase {
+      text-transform: uppercase;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .justify-content-end {
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+    }
+
+    .justify-content-between {
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+
+    .justify-content-center {
+      -ms-flex-pack: justify;
+      justify-content: center;
+    }
+
+    .blueborderbottom {
+      border-bottom: 0.5px solid #0c0c64;
+    }
+
+    .blueborderright {
+      border-right: 0.5px solid #0c0c64;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+
+    .table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    .borderright {
+      border-right: 0.5px solid rgb(68, 68, 68) !important;
+    }
+
+    .borderleft {
+      border-left: 0.5px solid rgb(68, 68, 68);
+    }
+
+    .borderbottom {
+      border-bottom: 0.5px solid rgb(68, 68, 68) !important;
+    }
+
+    .darkbggray {
+      background-color: rgb(173, 173, 173);
+    }
+
+    .table-bordered td {
+      border: 0.5px solid rgb(68, 68, 68);
+    }
+
+    td.innertable table td {
+      border: none;
+      padding: 0;
+    }
+
+    .table td.innertable {
+      padding: 0;
+    }
+
+    td.innertable {
+      padding: 0;
+    }
+
+    .table td,
+    .table th {
+      padding: 0.3rem;
+      vertical-align: center;
+    }
+
+    .table thead th {
+      vertical-align: bottom;
+    }
+
+    .col-md-4 {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+
+    .header,
+    .medheader {
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .lightbluebg {
+      background: #e0e9ef;
+    }
+
+    .lightgreenbg {
+      background: rgb(230, 255, 230);
+    }
+
+    .header2 {
+      font-size: 14px;
+      margin-top: 0px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .paragraph {
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    .col-md-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .mb-0,
+    .my-0 {
+      margin-bottom: 0;
+    }
+
+    .mt-0 {
+      margin-top: 0px;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .bold700 {
+      font-weight: 700 !important;
+    }
+
+    .header {
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .largeheader {
+      font-weight: 700;
+      font-size: 18px;
+    }
+
+    .medheader {
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .smallheader {
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .paragraph {
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    .width30 {
+      width: 30%;
+      overflow-x: hidden;
+    }
+
+    .dottedborderbottom {
+      border-bottom: 1px dotted #000;
+    }
+
+    .tablefixed {
+      table-layout: fixed;
+      width: 100%;
+    }
+
+    .btndownload {
+      border: none;
+      padding: 10px 20px;
+      background-color: rgb(235, 133, 133);
+      color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .btndownload:hover {
+      opacity: 0.6;
+      cursor: pointer;
+    }
+
+    @media print {
+      #pdf-button {
+        display: none;
+      }
+
+      .d-print-none {
+        display: none;
+      }
+
+      .d-print-flex {
+        display: -ms-flexbox;
+        display: flex;
+      }
+
+      .d-print-inline-flex {
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .justify-start {
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+      }
+
+      .width30 {
+        width: 50%;
+      }
+    }
+  </style>
+  <style>
+    @page {
+      margin: 200px 0 50px;
+
+      @top {
+        padding-bottom: 20px;
+
+        content: flow(header-flow);
+      }
+
+      @bottom {
+        content: flow(footer);
+        border-bottom: 15px solid #0c0c64;
+      }
+    }
+
+    .container2 {
+      max-width: 1060px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    header {
+      flow: static(header-flow);
+    }
+
+    footer {
+      flow: static(footer);
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container2 {
+        margin-left: 200px;
+        margin-right: 200px;
+      }
+    }
+
+    .header-page-number {
+      content: 'Page ' counter(page);
+
+      width: 105px;
+      background-color: #aadda8;
+      color: #fff;
+      text-align: end;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .pagebreakafter-avoid {
+      page-break-after: avoid;
+    }
+
+    .pagebreakafter-always {
+      page-break-after: always;
+    }
+
+    .pagebreakinside-avoid {
+      page-break-inside: avoid;
+    }
+
+    .pagebreakbefore-avoid {
+      page-break-before: avoid;
+    }
+
+    .pagebreakbefore-always {
+      page-break-before: always;
+    }
+
+    .pagebreakinside-always {
+      page-break-inside: always;
+    }
+
+    .bluetext {
+      color: #0c0c64;
+    }
+
+    .symbolsize {
+      font-size: 16px;
+    }
+
+    .paragraph2 {
+      font-size: 16px;
+    }
+
+    .letterhead {
+      border-left: 3px double #0c0c64;
+    }
+
+    .mxspacing {
+      margin-right: 135px;
+      margin-left: 15px;
+    }
+
+    .blueborderbottompage {}
+  </style>
+</head>
+
+<body>
+  {% if header %}
+  {{ header | safe }}
+
+  {% else %}
+  <br><br><br><br><br><br><br>
+  {% endif %}
+
+  <div class="d-flex justify-content-between mt-5">
+  </div>
+  <div style="border: 1px solid #000000; border-width: 0px 1px 0px 1px;">
+    <table class="table tablefixed firsttable">
+      <thead>
+        <tr>
+          <td class="header blueborderbottom blueborderright">
+            Patient Information
+          </td>
+          <td class="header blueborderbottom">Radiology Information</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="header2 firsttable">
+            <div>
+              <h2 class="header2 mb-0 mt-0">
+                NAME: {{ patient.firstname }} {{ patient.middlename }} {{ patient.lastname }}
+              </h2>
+
+              <div style="display: flex; justify-content: between">
+                <h2 class="header2 mb-0 mt-0" style="width: 200px; font-weight: 700">
+                  D.O.B:
+                  <span class="">{{ patient.date_of_birth }}</span>
+                </h2>
+                <h2 class="header2  mb-0 mt-0" style="width: 100px">
+                  AGE:
+                  <span class="">{{ patient.age }}</span>
+                </h2>
+              </div>
+
+              <div style="display: flex; justify-content: between">
+                <h2 class="header2 mb-0 mt-0" style="width: 200px">
+                  GENDER:
+                  <span class="">{{ patient.gender }}</span>
+                </h2>
+
+              </div>
+
+              <div style="display: flex; justify-content: between">
+                <h2 class="header2 mb-0 mt-0" style="width: 200px">
+                  PHONE:
+                  <span class="">{{ patient.phone_number }}</span>
+                </h2>
+              </div>
+
+              <div style="display: flex; justify-content: between">
+                <h2 class="header2 mb-0 mt-0" style="width: 200px">
+                  PATIENT ID:
+                  <span class="">{{ patient.uhid }}</span>
+                </h2>
+              </div>
+            </div>
+          </td>
+          <td class="paragraph" style="border-right: 0.5px solid #0c0c64">
+            <div style="display: flex; justify-content: between">
+              <h2 class="header2 text-uppercase mb-0 mt-3" style="width: 200px">
+                RAD REF:
+                <span class="">{{ img_id }}</span>
+              </h2>
+            </div>
+            <div style="display: flex; justify-content: between">
+              <h2 class="header2 text-uppercase mb-0 mt-3" style="width: 200px">
+                Observation:
+                <span class="">{{ img_obv_orders.0.img_obv.name }}</span>
+              </h2>
+            </div>
+            <div style="display: flex; justify-content: between">
+              <h2 class="header2 text-uppercase mb-0 mt-3" style="width: 200px">
+                Modality:
+                <span class="">{{ img_obv_orders.0.img_obv.modality.name }}</span>
+              </h2>
+            </div>
+
+            <div style="display: flex; justify-content: between">
+              <h2 class="header2 mb-0 mt-3">
+                COLLECTED:
+                <span class="">{% now "SHORT_DATETIME_FORMAT" %}</span>
+              </h2>
+            </div>
+            <div style="display: flex; justify-content: between">
+              <h2 class="header2 mb-0 mt-3">
+                RECEIVED:
+                <span class="">{% now "SHORT_DATETIME_FORMAT" %}</span>
+              </h2>
+            </div>
+            <div style="display: flex; justify-content: between">
+              <h2 class="header2 mb-0 mt-3">
+                REPORTED:
+                <span class="">{{ img_obv_orders.0.reported_on }}</span>
+              </h2>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="header2 mb-0 mt-5">
+    REPORT
+  </h2>
+  <div class="mb-3 pt-0">
+    {{ img_obv_orders.0.report|safe }}
+  </div>
+  
+
+  {% if img_obv_orders.0.reported_by %} 
+  <div class="mt-5 mb-3 text-end">
+    <h2 class="header2 mb-0 mt-3 mb-3">
+      REPORTED BY
+    </h2>
+    {{ img_obv_orders.0.reported_by.first_name|default:"" }} {{ img_obv_orders.0.reported_by.last_name|default:"" }}
+  </div>
+  {% endif %}
+
+  <footer>
+    <div style="display: flex; justify-content: end">
+      <div class="header-page-number" style="display: flex; justify-content: end"></div>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+[
+    {
+        "model": "encounters.encountertemplate",
+        "pk": 9,
+        "fields": {
+            "created_at": "2023-02-10T17:00:18.498Z",
+            "updated_at": "2023-02-10T17:02:57.054Z",
+            "created_by": {
+                "id": 43,
+                "email": "fe@mail.com",
+                "username": "FE-DEV",
+                "last_name": "DIMEJI",
+                "first_name": "FE"
+            },
+            "updated_by": {
+                "id": 43,
+                "email": "fe@mail.com",
+                "username": "FE-DEV",
+                "last_name": "DIMEJI",
+                "first_name": "FE"
+            },
+            "title": "Legacy chart",
+            "description": "Legacy encounter chart",
+            "content": [
+                {
+                    "cols": [
+                        {
+                            "show": false,
+                            "header": "",
+                            "context": "",
+                            "required": false,
+                            "form_field": [
+                                {
+                                    "type": "text-area",
+                                    "context": "",
+                                    "options": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "show": false,
+                    "section": "Chief complaint"
+                },
+                {
+                    "cols": [
+                        {
+                            "show": false,
+                            "header": "",
+                            "context": "",
+                            "required": false,
+                            "form_field": [
+                                {
+                                    "type": "text-area",
+                                    "context": "",
+                                    "options": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "show": false,
+                    "section": "Medical HX"
+                },
+                {
+                    "cols": [
+                        {
+                            "show": false,
+                            "header": "",
+                            "context": "",
+                            "required": false,
+                            "form_field": [
+                                {
+                                    "type": "text-area",
+                                    "context": "",
+                                    "options": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "show": false,
+                    "section": "Social HX"
+                },
+                {
+                    "cols": [
+                        {
+                            "show": false,
+                            "header": "",
+                            "context": "",
+                            "required": false,
+                            "form_field": [
+                                {
+                                    "type": "text-area",
+                                    "context": "",
+                                    "options": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "show": false,
+                    "section": "Exam"
+                },
+                {
+                    "cols": [
+                        {
+                            "show": false,
+                            "header": "",
+                            "context": "",
+                            "required": false,
+                            "form_field": [
+                                {
+                                    "type": "text-area",
+                                    "context": "",
+                                    "options": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "show": false,
+                    "section": "Plan"
+                },
+                {
+                    "cols": [
+                        {
+                            "show": false,
+                            "header": "",
+                            "context": "",
+                            "required": false,
+                            "form_field": [
+                                {
+                                    "type": "text-area",
+                                    "context": "",
+                                    "options": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "show": false,
+                    "section": "Ros"
+                },
+                {
+                    "cols": [
+                        {
+                            "show": false,
+                            "header": "",
+                            "context": "",
+                            "required": false,
+                            "form_field": [
+                                {
+                                    "type": "diagnosis",
+                                    "context": "",
+                                    "options": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "show": false,
+                    "section": "Diagnosis"
+                },
+                {
+                    "cols": [
+                        {
+                            "show": false,
+                            "header": "",
+                            "context": "",
+                            "required": false,
+                            "form_field": [
+                                {
+                                    "type": "lab_Order",
+                                    "context": "Laboratory",
+                                    "options": ""
+                                },
+                                {
+                                    "type": "imaging",
+                                    "context": "Imaging",
+                                    "options": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "show": false,
+                    "section": "Orders"
+                }
+            ],
+            "is_active": true,
+            "is_default": true
+        }
+    }
+]

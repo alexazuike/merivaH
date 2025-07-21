@@ -1,0 +1,16 @@
+[
+{
+    "model": "core.religion",
+    "pk": 1,
+    "fields": {
+        "religion": "Christian"
+    }
+},
+{
+    "model": "core.religion",
+    "pk": 2,
+    "fields": {
+        "religion": "Muslim"
+    }
+}
+]

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Reports</title>
+    <style>
+        @font-face {
+            font-family: "Roboto";
+            src: url("/Roboto/Roboto-Regular.ttf") format('truetype');
+        }
+
+        body {
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        @page {
+            margin: 1cm;
+            size: A4;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse !important;
+            border-style: solid;
+            border: 2px black solid;
+        }
+
+        tr {
+            border: 1px black solid;
+        }
+
+        td {
+            border: 2px black solid;
+            padding: 4px;
+        }
+
+        .d-flex {
+            display: -ms-flexbox !important;
+            display: flex !important;
+        }
+
+        .align-content-center {
+            -ms-flex-line-pack: center !important;
+            align-content: center !important;
+        }
+
+        .align-items-center {
+            -ms-flex-align: center !important;
+            align-items: center !important;
+        }
+
+        .justify-content-between {
+            -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+        }
+
+
+        ul {
+            /* list-style: none; */
+            display: block;
+            list-style-type: none;
+        }
+
+        .tab {
+            margin-left: 15px;
+        }
+
+        .text-end {
+            text-align: end;
+        }
+        .text-start {
+            text-align: start;
+        }
+        .text-center {
+            text-align: center;
+        }
+
+        .no-border-left {
+            border-left: 0px solid white;
+        }
+
+        .no-border-right {
+            border-right: 0px solid white;
+        }
+
+        .no-border-top {
+            border-top: 0px solid white;
+        }
+
+        .no-border-bottom {
+            border-bottom: 0px solid white;
+        }
+
+        .border-left {
+            border-left: 2px solid black;
+        }
+
+        .border-right {
+            border-right: 2px solid black;
+        }
+
+        .border-top {
+            border-top: 2px solid black;
+        }
+
+        .border-bottom {
+            border-bottom: 2px solid black;
+        }
+
+        .margin-bottom {
+            margin-bottom: 3px;
+        }
+
+        .margin-top {
+            margin-top: 10px
+        }
+
+        .results-container {
+            display: flex !important;
+            display: -ms-flexbox !important;
+            flex-wrap: wrap;
+        }
+
+        .result {
+            display: flex;
+            text-align: center;
+            padding: 5px;
+            width: 48.57%;
+            max-width: 48.57%;
+        }
+
+        .result-field {
+            width: 100%;
+            max-width: 100%;
+            flex-shrink: 2;
+        }
+
+        .capitalize {
+            text-transform: capitalize;
+        }
+
+        @media print {
+
+            body {
+                margin: 0;
+                color: #000;
+                background-color: #fff;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    {% if header %}
+    {{ header | safe }}
+    {% else %}
+    <div style="padding: 8%;">
+    </div>
+    {% endif %}
+
+    <main role="main" style="border: 3px solid black; padding: 3px;">
+        <table class="table align-middle">
+            <!-- Row A -->
+            <tr>
+                <td style="padding: 15px !important" colspan="5">
+                    <u><b>LAB. REF. NO: {{ asn }}</b></u>
+                </td>
+                <td colspan="3">DATE RECEIVED<br />
+                    {% now "SHORT_DATETIME_FORMAT" %}
+                </td>
+                <!-- <td rowspan="3">5</td> -->
+            </tr>
+            <!-- Row B -->
+            <tr>
+                <td colspan="2" style="padding: 15px !important" class="capitalize">
+                    SURNAME:<br />
+                    {{ patient.lastname }}
+                </td>
+                <td colspan="2" class="capitalize">
+                    OTHER NAMES:<br />
+                    {{ patient.middlename }} {{ patient.firstname }}
+                </td>
+                <td>
+                    AGE:<br />
+                    {{ patient.age }}
+                </td>
+                <td>
+                    SEX:<br />
+                    {{ patient.gender }}
+                </td>
+                <td colspan="2" class="capitalize">
+                    REG NO.:<br />
+                    {{ patient.uhid }}
+                </td>
+            </tr>
+            <!-- Row C -->
+            <tr>
+        </table>
+        <div style="padding: 10px;">
+            <h3 class="text-center" style="margin-bottom:3px; ">
+                {{ img_obv_orders.0.img_obv.name }}
+            </h3>
+            <div class="">
+                {{ img_obv_orders.0.report|safe }}
+            </div>
+
+            {% if img_obv_orders.0.reported_by %}
+            <div class="d-flex">
+                <div class="text-start" style="flex: 1;">
+                    <h4 style="margin-bottom: 1px;">
+                        REPORTED AT
+                    </h4>
+                    {{ img_obv_orders.0.approved_on }}
+                </div>
+                <div class="text-end" style="flex: 1;">
+                    <h4 style="margin-bottom: 1px;">
+                        REPORTED BY
+                    </h4>
+                    {{ img_obv_orders.0.reported_by.first_name|default:"" }} 
+                    {{ img_obv_orders.0.reported_by.last_name|default:"" }}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </main>
+</body>
+
+</html>

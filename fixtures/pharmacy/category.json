@@ -1,0 +1,1372 @@
+[
+    {
+        "model": "pharmacy.category",
+        "pk": 1,
+        "fields": {
+            "created_at": "2022-12-08T10:03:07.213Z",
+            "updated_at": "2022-12-08T10:03:07.213Z",
+            "parent": null,
+            "name": "Anaesthetics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 2,
+        "fields": {
+            "created_at": "2022-12-08T10:03:07.217Z",
+            "updated_at": "2022-12-08T10:03:07.217Z",
+            "parent": 1,
+            "name": "General Anaesthetics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 3,
+        "fields": {
+            "created_at": "2022-12-08T10:03:07.568Z",
+            "updated_at": "2022-12-08T10:03:07.568Z",
+            "parent": 2,
+            "name": "Premedication Drugs And Analgesics Adjuvants"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 4,
+        "fields": {
+            "created_at": "2022-12-08T10:03:08.366Z",
+            "updated_at": "2022-12-08T10:03:08.366Z",
+            "parent": 3,
+            "name": "Skeletal Muscle Relaxants And Antagonists"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 5,
+        "fields": {
+            "created_at": "2022-12-08T10:03:08.853Z",
+            "updated_at": "2022-12-08T10:03:08.853Z",
+            "parent": 4,
+            "name": "Local Anaesthetics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 6,
+        "fields": {
+            "created_at": "2022-12-08T10:03:09.414Z",
+            "updated_at": "2022-12-08T10:03:09.414Z",
+            "parent": null,
+            "name": "Analgesics Antipyretics And Non- Steroidal Anti-inflamatory Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 7,
+        "fields": {
+            "created_at": "2022-12-08T10:03:09.416Z",
+            "updated_at": "2022-12-08T10:03:09.416Z",
+            "parent": 6,
+            "name": "Analgesics Narcotic"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 8,
+        "fields": {
+            "created_at": "2022-12-08T10:03:10.449Z",
+            "updated_at": "2022-12-08T10:03:10.449Z",
+            "parent": 7,
+            "name": "Narcotic Antagonist"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 9,
+        "fields": {
+            "created_at": "2022-12-08T10:03:10.569Z",
+            "updated_at": "2022-12-08T10:03:10.569Z",
+            "parent": 8,
+            "name": "Non-narcotic Analgesics And Antipyretics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 10,
+        "fields": {
+            "created_at": "2022-12-08T10:03:11.131Z",
+            "updated_at": "2022-12-08T10:03:11.131Z",
+            "parent": 9,
+            "name": "Non-steroidal Anti-inflammatory Drugs And Medicines Used For Gout/rheumatoid Arthritis."
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 11,
+        "fields": {
+            "created_at": "2022-12-08T10:03:13.842Z",
+            "updated_at": "2022-12-08T10:03:13.842Z",
+            "parent": 10,
+            "name": "Skeletal Muscle & Antispasmodics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 12,
+        "fields": {
+            "created_at": "2022-12-08T10:03:14.492Z",
+            "updated_at": "2022-12-08T10:03:14.492Z",
+            "parent": null,
+            "name": "Anti-allergics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 13,
+        "fields": {
+            "created_at": "2022-12-08T10:03:14.493Z",
+            "updated_at": "2022-12-08T10:03:14.493Z",
+            "parent": 12,
+            "name": "Antihistamines"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 14,
+        "fields": {
+            "created_at": "2022-12-08T10:03:16.017Z",
+            "updated_at": "2022-12-08T10:03:16.017Z",
+            "parent": 13,
+            "name": "Antianaphylactics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 15,
+        "fields": {
+            "created_at": "2022-12-08T10:03:16.436Z",
+            "updated_at": "2022-12-08T10:03:16.436Z",
+            "parent": null,
+            "name": "Antidotes"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 16,
+        "fields": {
+            "created_at": "2022-12-08T10:03:16.438Z",
+            "updated_at": "2022-12-08T10:03:16.438Z",
+            "parent": 15,
+            "name": "Specific Antidotes"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 17,
+        "fields": {
+            "created_at": "2022-12-08T10:03:17.731Z",
+            "updated_at": "2022-12-08T10:03:17.731Z",
+            "parent": 16,
+            "name": "Non-specific Antidotes"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 18,
+        "fields": {
+            "created_at": "2022-12-08T10:03:17.818Z",
+            "updated_at": "2022-12-08T10:03:17.818Z",
+            "parent": null,
+            "name": "Anti-convulsants (anti-epileptics)"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 19,
+        "fields": {
+            "created_at": "2022-12-08T10:03:19.611Z",
+            "updated_at": "2022-12-08T10:03:19.611Z",
+            "parent": null,
+            "name": "Anti-infective Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 20,
+        "fields": {
+            "created_at": "2022-12-08T10:03:19.612Z",
+            "updated_at": "2022-12-08T10:03:19.612Z",
+            "parent": 19,
+            "name": "Amoebicides/antiflagellate"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 21,
+        "fields": {
+            "created_at": "2022-12-08T10:03:20.258Z",
+            "updated_at": "2022-12-08T10:03:20.258Z",
+            "parent": 20,
+            "name": "Antihelmintics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 22,
+        "fields": {
+            "created_at": "2022-12-08T10:03:21.173Z",
+            "updated_at": "2022-12-08T10:03:21.173Z",
+            "parent": 21,
+            "name": "Antischistosomal Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 23,
+        "fields": {
+            "created_at": "2022-12-08T10:03:21.275Z",
+            "updated_at": "2022-12-08T10:03:21.275Z",
+            "parent": 22,
+            "name": "Antifilarial Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 24,
+        "fields": {
+            "created_at": "2022-12-08T10:03:21.370Z",
+            "updated_at": "2022-12-08T10:03:21.370Z",
+            "parent": 23,
+            "name": "Anti-malarial Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 25,
+        "fields": {
+            "created_at": "2022-12-08T10:03:24.613Z",
+            "updated_at": "2022-12-08T10:03:24.613Z",
+            "parent": 24,
+            "name": "Antitrypanosomal"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 26,
+        "fields": {
+            "created_at": "2022-12-08T10:03:25.134Z",
+            "updated_at": "2022-12-08T10:03:25.134Z",
+            "parent": 25,
+            "name": "Antibacterial Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 27,
+        "fields": {
+            "created_at": "2022-12-08T10:03:36.950Z",
+            "updated_at": "2022-12-08T10:03:36.950Z",
+            "parent": 26,
+            "name": "Antileprosy Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 28,
+        "fields": {
+            "created_at": "2022-12-08T10:03:37.339Z",
+            "updated_at": "2022-12-08T10:03:37.339Z",
+            "parent": 27,
+            "name": "Systemic Antifungal Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 29,
+        "fields": {
+            "created_at": "2022-12-08T10:03:39.530Z",
+            "updated_at": "2022-12-08T10:03:39.530Z",
+            "parent": 28,
+            "name": "Antiviral Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 30,
+        "fields": {
+            "created_at": "2022-12-08T10:03:41.155Z",
+            "updated_at": "2022-12-08T10:03:41.155Z",
+            "parent": 29,
+            "name": "Anti-retroviral (arv) Drugs (exclusion List)"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 31,
+        "fields": {
+            "created_at": "2022-12-08T10:03:41.157Z",
+            "updated_at": "2022-12-08T10:03:41.157Z",
+            "parent": 30,
+            "name": "Protease Inhibitors"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 32,
+        "fields": {
+            "created_at": "2022-12-08T10:03:41.158Z",
+            "updated_at": "2022-12-08T10:03:41.158Z",
+            "parent": 31,
+            "name": "Nucleoside Reverse Transcriptase Inhibitors"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 33,
+        "fields": {
+            "created_at": "2022-12-08T10:03:41.160Z",
+            "updated_at": "2022-12-08T10:03:41.160Z",
+            "parent": 32,
+            "name": "Non-nucleoside Reverse Transcriptase Inhibitors"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 34,
+        "fields": {
+            "created_at": "2022-12-08T10:03:41.269Z",
+            "updated_at": "2022-12-08T10:03:41.269Z",
+            "parent": 33,
+            "name": "Fixed Dose Combinations"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 35,
+        "fields": {
+            "created_at": "2022-12-08T10:03:41.707Z",
+            "updated_at": "2022-12-08T10:03:41.707Z",
+            "parent": null,
+            "name": "Anti-migraine Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 36,
+        "fields": {
+            "created_at": "2022-12-08T10:03:42.344Z",
+            "updated_at": "2022-12-08T10:03:42.344Z",
+            "parent": null,
+            "name": "Immuno Suppresive Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 37,
+        "fields": {
+            "created_at": "2022-12-08T10:03:43.120Z",
+            "updated_at": "2022-12-08T10:03:43.120Z",
+            "parent": null,
+            "name": "Drugs For Parkinonsim And Other Neurological Disorders"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 38,
+        "fields": {
+            "created_at": "2022-12-08T10:03:43.122Z",
+            "updated_at": "2022-12-08T10:03:43.122Z",
+            "parent": 37,
+            "name": "Anti-parkinsonism Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 39,
+        "fields": {
+            "created_at": "2022-12-08T10:03:43.855Z",
+            "updated_at": "2022-12-08T10:03:43.855Z",
+            "parent": 38,
+            "name": "Drugs For Myasthenia Gravis"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 40,
+        "fields": {
+            "created_at": "2022-12-08T10:03:44.311Z",
+            "updated_at": "2022-12-08T10:03:44.311Z",
+            "parent": 39,
+            "name": "Drugs For Subarachnoid Haemorrhage"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 41,
+        "fields": {
+            "created_at": "2022-12-08T10:03:44.312Z",
+            "updated_at": "2022-12-08T10:03:44.312Z",
+            "parent": 40,
+            "name": "Antiseptics And Disinfectants"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 42,
+        "fields": {
+            "created_at": "2022-12-08T10:03:46.027Z",
+            "updated_at": "2022-12-08T10:03:46.027Z",
+            "parent": 41,
+            "name": "Drugs For Dementia"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 43,
+        "fields": {
+            "created_at": "2022-12-08T10:03:46.029Z",
+            "updated_at": "2022-12-08T10:03:46.029Z",
+            "parent": null,
+            "name": "Drugs Affecting The Blood"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 44,
+        "fields": {
+            "created_at": "2022-12-08T10:03:46.031Z",
+            "updated_at": "2022-12-08T10:03:46.031Z",
+            "parent": 43,
+            "name": "Anti-aneamic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 45,
+        "fields": {
+            "created_at": "2022-12-08T10:03:46.815Z",
+            "updated_at": "2022-12-08T10:03:46.815Z",
+            "parent": 44,
+            "name": "Anticoagulants"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 46,
+        "fields": {
+            "created_at": "2022-12-08T10:03:47.731Z",
+            "updated_at": "2022-12-08T10:03:47.731Z",
+            "parent": 45,
+            "name": "Anti Platelets"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 47,
+        "fields": {
+            "created_at": "2022-12-08T10:03:47.961Z",
+            "updated_at": "2022-12-08T10:03:47.961Z",
+            "parent": 46,
+            "name": "Anti Fibrinolytic And Hemostatic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 48,
+        "fields": {
+            "created_at": "2022-12-08T10:03:48.381Z",
+            "updated_at": "2022-12-08T10:03:48.381Z",
+            "parent": 47,
+            "name": "Plasma Substitutes"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 49,
+        "fields": {
+            "created_at": "2022-12-08T10:03:48.761Z",
+            "updated_at": "2022-12-08T10:03:48.761Z",
+            "parent": null,
+            "name": "Cardiovascular Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 50,
+        "fields": {
+            "created_at": "2022-12-08T10:03:48.763Z",
+            "updated_at": "2022-12-08T10:03:48.763Z",
+            "parent": 49,
+            "name": "Anti Anginal Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 51,
+        "fields": {
+            "created_at": "2022-12-08T10:03:50.476Z",
+            "updated_at": "2022-12-08T10:03:50.476Z",
+            "parent": 50,
+            "name": "Anti-arrhythmic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 52,
+        "fields": {
+            "created_at": "2022-12-08T10:03:51.548Z",
+            "updated_at": "2022-12-08T10:03:51.548Z",
+            "parent": 51,
+            "name": "Diuretics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 53,
+        "fields": {
+            "created_at": "2022-12-08T10:03:53.557Z",
+            "updated_at": "2022-12-08T10:03:53.557Z",
+            "parent": 52,
+            "name": "Antihypertensives Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 54,
+        "fields": {
+            "created_at": "2022-12-08T10:04:06.229Z",
+            "updated_at": "2022-12-08T10:04:06.229Z",
+            "parent": 53,
+            "name": "Cardiac Glycoside And Cardiotonics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 55,
+        "fields": {
+            "created_at": "2022-12-08T10:04:07.206Z",
+            "updated_at": "2022-12-08T10:04:07.206Z",
+            "parent": 54,
+            "name": "Lipid – Regulating Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 56,
+        "fields": {
+            "created_at": "2022-12-08T10:04:08.922Z",
+            "updated_at": "2022-12-08T10:04:08.922Z",
+            "parent": null,
+            "name": "Dental Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 57,
+        "fields": {
+            "created_at": "2022-12-08T10:04:08.924Z",
+            "updated_at": "2022-12-08T10:04:08.924Z",
+            "parent": 56,
+            "name": "Local Anaesthetics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 58,
+        "fields": {
+            "created_at": "2022-12-08T10:04:09.325Z",
+            "updated_at": "2022-12-08T10:04:09.325Z",
+            "parent": 57,
+            "name": "Mouthwashes"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 59,
+        "fields": {
+            "created_at": "2022-12-08T10:04:09.930Z",
+            "updated_at": "2022-12-08T10:04:09.930Z",
+            "parent": 58,
+            "name": "Anti Inflammatory Dental Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 60,
+        "fields": {
+            "created_at": "2022-12-08T10:04:10.068Z",
+            "updated_at": "2022-12-08T10:04:10.068Z",
+            "parent": null,
+            "name": "Dermatological Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 61,
+        "fields": {
+            "created_at": "2022-12-08T10:04:10.069Z",
+            "updated_at": "2022-12-08T10:04:10.069Z",
+            "parent": 60,
+            "name": "Anti-infective Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 62,
+        "fields": {
+            "created_at": "2022-12-08T10:04:14.573Z",
+            "updated_at": "2022-12-08T10:04:14.573Z",
+            "parent": 61,
+            "name": "Fungicides With Antibacterial/anti-inflammatory Agents"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 63,
+        "fields": {
+            "created_at": "2022-12-08T10:04:16.803Z",
+            "updated_at": "2022-12-08T10:04:16.803Z",
+            "parent": 62,
+            "name": "Keratolytic/ Psoriasis Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 64,
+        "fields": {
+            "created_at": "2022-12-08T10:04:17.412Z",
+            "updated_at": "2022-12-08T10:04:17.412Z",
+            "parent": null,
+            "name": "Ear Nose & Throat Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 65,
+        "fields": {
+            "created_at": "2022-12-08T10:04:17.414Z",
+            "updated_at": "2022-12-08T10:04:17.414Z",
+            "parent": 64,
+            "name": "Ear Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 66,
+        "fields": {
+            "created_at": "2022-12-08T10:04:17.415Z",
+            "updated_at": "2022-12-08T10:04:17.415Z",
+            "parent": 65,
+            "name": "Anti-infective Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 67,
+        "fields": {
+            "created_at": "2022-12-08T10:04:17.735Z",
+            "updated_at": "2022-12-08T10:04:17.735Z",
+            "parent": 66,
+            "name": "Combined Anti-infective & Anti-inflammatory Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 68,
+        "fields": {
+            "created_at": "2022-12-08T10:04:18.462Z",
+            "updated_at": "2022-12-08T10:04:18.462Z",
+            "parent": 67,
+            "name": "Preparations For Removal Of Ear Wax"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 69,
+        "fields": {
+            "created_at": "2022-12-08T10:04:18.463Z",
+            "updated_at": "2022-12-08T10:04:18.463Z",
+            "parent": 68,
+            "name": "Nose Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 70,
+        "fields": {
+            "created_at": "2022-12-08T10:04:18.465Z",
+            "updated_at": "2022-12-08T10:04:18.465Z",
+            "parent": 69,
+            "name": "Antiallergic & Nasal Decongestants (topical & Systemic)"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 71,
+        "fields": {
+            "created_at": "2022-12-08T10:04:20.002Z",
+            "updated_at": "2022-12-08T10:04:20.002Z",
+            "parent": 70,
+            "name": "Cauterization Of Nose"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 72,
+        "fields": {
+            "created_at": "2022-12-08T10:04:20.154Z",
+            "updated_at": "2022-12-08T10:04:20.154Z",
+            "parent": 71,
+            "name": "Throat Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 73,
+        "fields": {
+            "created_at": "2022-12-08T10:04:20.436Z",
+            "updated_at": "2022-12-08T10:04:20.436Z",
+            "parent": null,
+            "name": "Gastro-intestinal Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 74,
+        "fields": {
+            "created_at": "2022-12-08T10:04:20.438Z",
+            "updated_at": "2022-12-08T10:04:20.438Z",
+            "parent": 73,
+            "name": "Antacid Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 75,
+        "fields": {
+            "created_at": "2022-12-08T10:04:21.768Z",
+            "updated_at": "2022-12-08T10:04:21.768Z",
+            "parent": 74,
+            "name": "Anti-emetic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 76,
+        "fields": {
+            "created_at": "2022-12-08T10:04:23.458Z",
+            "updated_at": "2022-12-08T10:04:23.458Z",
+            "parent": 75,
+            "name": "Anti-spasmodic Drugs & Smooth Muscle Stimulant"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 77,
+        "fields": {
+            "created_at": "2022-12-08T10:04:24.065Z",
+            "updated_at": "2022-12-08T10:04:24.065Z",
+            "parent": 76,
+            "name": "Purgatives / Laxatives And Lubricants"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 78,
+        "fields": {
+            "created_at": "2022-12-08T10:04:24.934Z",
+            "updated_at": "2022-12-08T10:04:24.935Z",
+            "parent": 77,
+            "name": "Anti-diarrhoeal Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 79,
+        "fields": {
+            "created_at": "2022-12-08T10:04:24.936Z",
+            "updated_at": "2022-12-08T10:04:24.936Z",
+            "parent": 78,
+            "name": "Antimotility Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 80,
+        "fields": {
+            "created_at": "2022-12-08T10:04:25.474Z",
+            "updated_at": "2022-12-08T10:04:25.474Z",
+            "parent": 79,
+            "name": "Replacement Fluid (oral Rehydration Therapy)"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 81,
+        "fields": {
+            "created_at": "2022-12-08T10:04:25.645Z",
+            "updated_at": "2022-12-08T10:04:25.645Z",
+            "parent": 80,
+            "name": "Preparations For Heamorrhoid"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 82,
+        "fields": {
+            "created_at": "2022-12-08T10:04:26.346Z",
+            "updated_at": "2022-12-08T10:04:26.346Z",
+            "parent": 81,
+            "name": "Peptic Ulcer Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 83,
+        "fields": {
+            "created_at": "2022-12-08T10:04:28.533Z",
+            "updated_at": "2022-12-08T10:04:28.533Z",
+            "parent": null,
+            "name": "Hormones"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 84,
+        "fields": {
+            "created_at": "2022-12-08T10:04:28.535Z",
+            "updated_at": "2022-12-08T10:04:28.535Z",
+            "parent": 83,
+            "name": "Corticosteroids & Synthetic Substitutes"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 85,
+        "fields": {
+            "created_at": "2022-12-08T10:04:29.654Z",
+            "updated_at": "2022-12-08T10:04:29.654Z",
+            "parent": 84,
+            "name": "Oestrogen"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 86,
+        "fields": {
+            "created_at": "2022-12-08T10:04:30.586Z",
+            "updated_at": "2022-12-08T10:04:30.586Z",
+            "parent": 85,
+            "name": "Drugs Acting On Pituitary- Ovarian Axis"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 87,
+        "fields": {
+            "created_at": "2022-12-08T10:04:31.949Z",
+            "updated_at": "2022-12-08T10:04:31.949Z",
+            "parent": 86,
+            "name": "Antidiuretic Hormones"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 88,
+        "fields": {
+            "created_at": "2022-12-08T10:04:32.362Z",
+            "updated_at": "2022-12-08T10:04:32.362Z",
+            "parent": 87,
+            "name": "Anti-diabetic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 89,
+        "fields": {
+            "created_at": "2022-12-08T10:04:32.363Z",
+            "updated_at": "2022-12-08T10:04:32.363Z",
+            "parent": 88,
+            "name": "Injectable Anti-diabetics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 90,
+        "fields": {
+            "created_at": "2022-12-08T10:04:34.233Z",
+            "updated_at": "2022-12-08T10:04:34.233Z",
+            "parent": 89,
+            "name": "Oral Anti-diabetics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 91,
+        "fields": {
+            "created_at": "2022-12-08T10:04:35.259Z",
+            "updated_at": "2022-12-08T10:04:35.259Z",
+            "parent": 90,
+            "name": "Thyroid Hormones And Antithyroid Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 92,
+        "fields": {
+            "created_at": "2022-12-08T10:04:36.235Z",
+            "updated_at": "2022-12-08T10:04:36.235Z",
+            "parent": 91,
+            "name": "Beningn Prostatic Hyperplasia Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 93,
+        "fields": {
+            "created_at": "2022-12-08T10:04:36.675Z",
+            "updated_at": "2022-12-08T10:04:36.675Z",
+            "parent": null,
+            "name": "Immunologicals"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 94,
+        "fields": {
+            "created_at": "2022-12-08T10:04:36.677Z",
+            "updated_at": "2022-12-08T10:04:36.677Z",
+            "parent": 93,
+            "name": "Sera And Immunoglobulins"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 95,
+        "fields": {
+            "created_at": "2022-12-08T10:04:37.982Z",
+            "updated_at": "2022-12-08T10:04:37.982Z",
+            "parent": 94,
+            "name": "Vaccines (all Vaccines Should Comply With Who Requirements For Biological Substance)"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 96,
+        "fields": {
+            "created_at": "2022-12-08T10:04:37.983Z",
+            "updated_at": "2022-12-08T10:04:37.983Z",
+            "parent": 95,
+            "name": "Vaccines For Universal Immunization"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 97,
+        "fields": {
+            "created_at": "2022-12-08T10:04:37.984Z",
+            "updated_at": "2022-12-08T10:04:37.984Z",
+            "parent": 96,
+            "name": "Vaccines For Specific Immunization"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 98,
+        "fields": {
+            "created_at": "2022-12-08T10:04:37.986Z",
+            "updated_at": "2022-12-08T10:04:37.986Z",
+            "parent": null,
+            "name": "Opthalmological Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 99,
+        "fields": {
+            "created_at": "2022-12-08T10:04:37.987Z",
+            "updated_at": "2022-12-08T10:04:37.987Z",
+            "parent": 98,
+            "name": "Anti-infective"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 100,
+        "fields": {
+            "created_at": "2022-12-08T10:04:39.407Z",
+            "updated_at": "2022-12-08T10:04:39.407Z",
+            "parent": 99,
+            "name": "Anti Allergic"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 101,
+        "fields": {
+            "created_at": "2022-12-08T10:04:39.629Z",
+            "updated_at": "2022-12-08T10:04:39.629Z",
+            "parent": 100,
+            "name": "Anti Inflammatory"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 102,
+        "fields": {
+            "created_at": "2022-12-08T10:04:41.314Z",
+            "updated_at": "2022-12-08T10:04:41.314Z",
+            "parent": 101,
+            "name": "Anti-glaucoma And Miotics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 103,
+        "fields": {
+            "created_at": "2022-12-08T10:04:43.155Z",
+            "updated_at": "2022-12-08T10:04:43.155Z",
+            "parent": 102,
+            "name": "Mydriatics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 104,
+        "fields": {
+            "created_at": "2022-12-08T10:04:43.866Z",
+            "updated_at": "2022-12-08T10:04:43.866Z",
+            "parent": 103,
+            "name": "Diagnostic Eye Drugs & Miscellaneous Preparations"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 105,
+        "fields": {
+            "created_at": "2022-12-08T10:04:44.223Z",
+            "updated_at": "2022-12-08T10:04:44.223Z",
+            "parent": null,
+            "name": "Oxytocics And Tocolytics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 106,
+        "fields": {
+            "created_at": "2022-12-08T10:04:45.202Z",
+            "updated_at": "2022-12-08T10:04:45.202Z",
+            "parent": null,
+            "name": "Preparations For Correcting Water"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 107,
+        "fields": {
+            "created_at": "2022-12-08T10:04:45.203Z",
+            "updated_at": "2022-12-08T10:04:45.203Z",
+            "parent": 106,
+            "name": "Oral Preparations"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 108,
+        "fields": {
+            "created_at": "2022-12-08T10:04:45.900Z",
+            "updated_at": "2022-12-08T10:04:45.900Z",
+            "parent": 107,
+            "name": "Parenteral Preparations"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 109,
+        "fields": {
+            "created_at": "2022-12-08T10:04:47.412Z",
+            "updated_at": "2022-12-08T10:04:47.413Z",
+            "parent": null,
+            "name": "Dialysis Solutions"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 110,
+        "fields": {
+            "created_at": "2022-12-08T10:04:47.414Z",
+            "updated_at": "2022-12-08T10:04:47.414Z",
+            "parent": 109,
+            "name": "Psychotherapeutic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 111,
+        "fields": {
+            "created_at": "2022-12-08T10:04:47.416Z",
+            "updated_at": "2022-12-08T10:04:47.416Z",
+            "parent": 110,
+            "name": "Hypnotics & Sedatives"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 112,
+        "fields": {
+            "created_at": "2022-12-08T10:04:48.978Z",
+            "updated_at": "2022-12-08T10:04:48.978Z",
+            "parent": 111,
+            "name": "Antidepressants"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 113,
+        "fields": {
+            "created_at": "2022-12-08T10:04:51.092Z",
+            "updated_at": "2022-12-08T10:04:51.092Z",
+            "parent": 112,
+            "name": "Anti Psychotics (major Tranquilizers)"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 114,
+        "fields": {
+            "created_at": "2022-12-08T10:04:54.585Z",
+            "updated_at": "2022-12-08T10:04:54.585Z",
+            "parent": 113,
+            "name": "Antidotes To Anti-psychotic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 115,
+        "fields": {
+            "created_at": "2022-12-08T10:04:55.603Z",
+            "updated_at": "2022-12-08T10:04:55.603Z",
+            "parent": null,
+            "name": "Respiratory System Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 116,
+        "fields": {
+            "created_at": "2022-12-08T10:04:55.605Z",
+            "updated_at": "2022-12-08T10:04:55.605Z",
+            "parent": 115,
+            "name": "Anti-asthmatic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 117,
+        "fields": {
+            "created_at": "2022-12-08T10:05:00.321Z",
+            "updated_at": "2022-12-08T10:05:00.321Z",
+            "parent": 116,
+            "name": "Anti-tussives"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 118,
+        "fields": {
+            "created_at": "2022-12-08T10:05:01.400Z",
+            "updated_at": "2022-12-08T10:05:01.400Z",
+            "parent": null,
+            "name": "Vitamins"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 119,
+        "fields": {
+            "created_at": "2022-12-08T10:05:04.608Z",
+            "updated_at": "2022-12-08T10:05:04.608Z",
+            "parent": null,
+            "name": "Minerals"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 120,
+        "fields": {
+            "created_at": "2022-12-08T10:05:05.958Z",
+            "updated_at": "2022-12-08T10:05:05.958Z",
+            "parent": null,
+            "name": "Cytotoxics And Adjuvants"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 121,
+        "fields": {
+            "created_at": "2022-12-08T10:05:08.117Z",
+            "updated_at": "2022-12-08T10:05:08.117Z",
+            "parent": null,
+            "name": "Miscellaneous Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 122,
+        "fields": {
+            "created_at": "2022-12-08T10:05:08.119Z",
+            "updated_at": "2022-12-08T10:05:08.119Z",
+            "parent": 121,
+            "name": "Enzymes"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 123,
+        "fields": {
+            "created_at": "2022-12-08T10:05:08.293Z",
+            "updated_at": "2022-12-08T10:05:08.293Z",
+            "parent": 122,
+            "name": "Consumables"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 124,
+        "fields": {
+            "created_at": "2022-12-08T10:05:12.311Z",
+            "updated_at": "2022-12-08T10:05:12.311Z",
+            "parent": null,
+            "name": "Antibacterial Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 125,
+        "fields": {
+            "created_at": "2022-12-08T10:05:12.765Z",
+            "updated_at": "2022-12-08T10:05:12.765Z",
+            "parent": null,
+            "name": "Drugs Acting On Pituitary- Ovarian Axis"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 126,
+        "fields": {
+            "created_at": "2022-12-08T10:05:13.545Z",
+            "updated_at": "2022-12-08T10:05:13.545Z",
+            "parent": 125,
+            "name": "Anti-diabetic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 127,
+        "fields": {
+            "created_at": "2022-12-08T10:05:13.546Z",
+            "updated_at": "2022-12-08T10:05:13.546Z",
+            "parent": 126,
+            "name": "Oral Anti-diabetics"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 128,
+        "fields": {
+            "created_at": "2022-12-08T10:05:16.004Z",
+            "updated_at": "2022-12-08T10:05:16.004Z",
+            "parent": null,
+            "name": "Immunologicals"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 129,
+        "fields": {
+            "created_at": "2022-12-08T10:05:16.005Z",
+            "updated_at": "2022-12-08T10:05:16.005Z",
+            "parent": 128,
+            "name": "Sera And Immunoglobulins"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 130,
+        "fields": {
+            "created_at": "2022-12-08T10:05:17.024Z",
+            "updated_at": "2022-12-08T10:05:17.024Z",
+            "parent": 129,
+            "name": "Vaccines (all Vaccines Should Comply With Who Requirements For Biological Substance)"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 131,
+        "fields": {
+            "created_at": "2022-12-08T10:05:17.025Z",
+            "updated_at": "2022-12-08T10:05:17.025Z",
+            "parent": 130,
+            "name": "Vaccines For Universal Immunization"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 132,
+        "fields": {
+            "created_at": "2022-12-08T10:05:17.230Z",
+            "updated_at": "2022-12-08T10:05:17.230Z",
+            "parent": null,
+            "name": "Preparations For Correcting Water"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 133,
+        "fields": {
+            "created_at": "2022-12-08T10:05:17.232Z",
+            "updated_at": "2022-12-08T10:05:17.232Z",
+            "parent": 132,
+            "name": "Parenteral Preparations"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 134,
+        "fields": {
+            "created_at": "2022-12-08T10:05:17.561Z",
+            "updated_at": "2022-12-08T10:05:17.561Z",
+            "parent": 133,
+            "name": "Anti Psychotics (major Tranquilizers)"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 135,
+        "fields": {
+            "created_at": "2022-12-08T10:05:18.367Z",
+            "updated_at": "2022-12-08T10:05:18.367Z",
+            "parent": null,
+            "name": "Respiratory System Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 136,
+        "fields": {
+            "created_at": "2022-12-08T10:05:18.369Z",
+            "updated_at": "2022-12-08T10:05:18.369Z",
+            "parent": 135,
+            "name": "Anti-asthmatic Drugs"
+        }
+    },
+    {
+        "model": "pharmacy.category",
+        "pk": 137,
+        "fields": {
+            "created_at": "2022-12-08T10:05:18.699Z",
+            "updated_at": "2022-12-08T10:05:18.699Z",
+            "parent": null,
+            "name": "Cytotoxics And Adjuvants"
+        }
+    }
+]

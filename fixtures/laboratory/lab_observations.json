@@ -1,0 +1,3676 @@
+[
+    {
+        "model": "laboratory.labobservation",
+        "pk": 1,
+        "fields": {
+            "name": "125 Hydroxy Vitamin D",
+            "uom": "pg/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T19:38:29.401Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 2,
+        "fields": {
+            "name": "2Hpp",
+            "uom": "mmol/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T19:39:16.671Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 3,
+        "fields": {
+            "name": "24HR Urine Calcium",
+            "uom": "mg/day",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T19:42:39.070Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 4,
+        "fields": {
+            "name": "24HR Urine Creatinine Clearance",
+            "uom": "ml/min",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": []
+            },
+            "created_at": "2022-10-23T19:44:17.806Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 5,
+        "fields": {
+            "name": "24HR Urine Protein",
+            "uom": "mg/day",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": []
+            },
+            "created_at": "2022-10-23T19:45:33.771Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 6,
+        "fields": {
+            "name": "ABO RHESUS BLOOD",
+            "uom": "group",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T19:47:19.391Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 7,
+        "fields": {
+            "name": "Acetylcholine Receptor Antibody",
+            "uom": "nmol/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T19:55:28.190Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 8,
+        "fields": {
+            "name": "Acid Phosphatase[total and prostatic]",
+            "uom": "u/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": []
+            },
+            "created_at": "2022-10-23T19:58:05.694Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 9,
+        "fields": {
+            "name": "Activated partial trobone",
+            "uom": "secs",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:00:54.574Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 10,
+        "fields": {
+            "name": "Adenine deaminase",
+            "uom": "iu/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:02:20.964Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 11,
+        "fields": {
+            "name": "Advanced Standard Blood Culture",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:04:30.394Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 12,
+        "fields": {
+            "name": "Calamine Aminotranferase",
+            "uom": "iu/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:06:16.066Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 13,
+        "fields": {
+            "name": "Advanced Anaerobic Blood Culture",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:07:50.295Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 14,
+        "fields": {
+            "name": "Liver Function Test",
+            "uom": "g/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:09:51.164Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 15,
+        "fields": {
+            "name": "Calcium Albumin",
+            "uom": "g/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:10:18.344Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 16,
+        "fields": {
+            "name": "Alkaline Phosphatase",
+            "uom": "iu/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:14:36.992Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 17,
+        "fields": {
+            "name": "Alpha Veto Protein",
+            "uom": "ng/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:15:15.488Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 18,
+        "fields": {
+            "name": "Amylase",
+            "uom": "u/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:15:41.331Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 19,
+        "fields": {
+            "name": "Andogens",
+            "uom": "nmol/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:16:11.462Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 20,
+        "fields": {
+            "name": "Angiotensin Coverting Enzyme",
+            "uom": "nmol/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:17:01.590Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 21,
+        "fields": {
+            "name": "ANTI DS DNA",
+            "uom": "Ul/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:26:13.945Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 22,
+        "fields": {
+            "name": "Anti la",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:26:49.421Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 23,
+        "fields": {
+            "name": "Anti neut Cytoplasmic Antibodies",
+            "uom": "au/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:27:45.663Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 24,
+        "fields": {
+            "name": "Anti Rho",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:28:12.387Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 25,
+        "fields": {
+            "name": "Anti smith IgG Antibody",
+            "uom": "u/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:28:58.770Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 26,
+        "fields": {
+            "name": "Anti Throglobulin Antibodies",
+            "uom": "ul/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": []
+            },
+            "created_at": "2022-10-23T20:29:44.625Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 27,
+        "fields": {
+            "name": "Anti Cylic Citrullinated Peeptide AntiCCp",
+            "uom": "u/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:31:55.804Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 28,
+        "fields": {
+            "name": "Anti Mitochodrial Antibodies",
+            "uom": "Units",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:33:05.623Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 29,
+        "fields": {
+            "name": "Antinuclear factor",
+            "uom": "iu/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": []
+            },
+            "created_at": "2022-10-23T20:33:46.067Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 30,
+        "fields": {
+            "name": "antinuclear Antibody",
+            "uom": "Units",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:34:42.593Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 31,
+        "fields": {
+            "name": "Antiphospholipid Antibody IgM & IgG",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:36:57.543Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 32,
+        "fields": {
+            "name": "Anti Smooth Muscle Antibodies",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:38:10.795Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 33,
+        "fields": {
+            "name": "Antistreptolyin o titre",
+            "uom": "iu",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:39:25.734Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 34,
+        "fields": {
+            "name": "Antithrombin",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:40:27.310Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 35,
+        "fields": {
+            "name": "Aspartate Aminotranferase",
+            "uom": "iu/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:41:20.699Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 36,
+        "fields": {
+            "name": "VITAMIN B12",
+            "uom": "pg/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:41:58.758Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 37,
+        "fields": {
+            "name": "Basophils Count",
+            "uom": "x 10/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:45:01.482Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 38,
+        "fields": {
+            "name": "Basophils Percentage",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:45:55.962Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 39,
+        "fields": {
+            "name": "Bence Jones Protein",
+            "uom": "kDa",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:47:14.612Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 40,
+        "fields": {
+            "name": "Beta 2 Glycoprotein IgM and IgG",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:48:44.022Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 41,
+        "fields": {
+            "name": "Total Bilirubin",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:50:02.748Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 42,
+        "fields": {
+            "name": "Total Bilirubin",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:51:17.326Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 43,
+        "fields": {
+            "name": "Biocarbonate",
+            "uom": "mmol/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:52:05.064Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 44,
+        "fields": {
+            "name": "Bleeding Time",
+            "uom": "minutes",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:52:43.703Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 45,
+        "fields": {
+            "name": "Blood Culture and Sensitivity",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:53:30.284Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 46,
+        "fields": {
+            "name": "Blood Pregnancy Test",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:54:26.357Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 47,
+        "fields": {
+            "name": "Bone Marrow Examinatiom",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:55:16.596Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 48,
+        "fields": {
+            "name": "Cancer Antigen",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:56:00.316Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 49,
+        "fields": {
+            "name": "Breast Tissue Immuno Histo Chemistry Panel",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:57:26.785Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 50,
+        "fields": {
+            "name": "C Reactive Protein",
+            "uom": "g/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:58:01.998Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 51,
+        "fields": {
+            "name": "Cancer Antigen",
+            "uom": "u/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": []
+            },
+            "created_at": "2022-10-23T20:58:31.925Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 52,
+        "fields": {
+            "name": "Cancer Antigen",
+            "uom": "u/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T20:59:31.126Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 53,
+        "fields": {
+            "name": "Calcium",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": null,
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-23T21:00:50.671Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 54,
+        "fields": {
+            "name": "Calcium",
+            "uom": "umol/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:25:51.312Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 55,
+        "fields": {
+            "name": "Carcinoembryonic Antigen",
+            "uom": "ng/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:27:36.267Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 56,
+        "fields": {
+            "name": "Cardiolipin Antigen",
+            "uom": "units",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:28:10.159Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 57,
+        "fields": {
+            "name": "Urine Microscopy Test",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:28:58.123Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 58,
+        "fields": {
+            "name": "CD4 Count",
+            "uom": "cell/mm^3",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:29:39.888Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 59,
+        "fields": {
+            "name": "Chlamydia Trichromatis",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:31:20.714Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 60,
+        "fields": {
+            "name": "Chloride",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:31:50.897Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 61,
+        "fields": {
+            "name": "Chloride",
+            "uom": "mmol/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:32:12.541Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 62,
+        "fields": {
+            "name": "Clotting Time",
+            "uom": "minutes",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:32:35.583Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 63,
+        "fields": {
+            "name": "Comprehensive Celiac Screening",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": []
+            },
+            "created_at": "2022-10-25T11:33:05.585Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 64,
+        "fields": {
+            "name": "Coagulation Profile",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:33:46.402Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 65,
+        "fields": {
+            "name": "Comprehensive Allergy Panel",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:34:27.662Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 66,
+        "fields": {
+            "name": "Liver Function Test",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:34:55.270Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 67,
+        "fields": {
+            "name": "Bilirubin",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:47:02.790Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 68,
+        "fields": {
+            "name": "Coomb's Test",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": []
+            },
+            "created_at": "2022-10-25T11:47:33.552Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 69,
+        "fields": {
+            "name": "Coomb's test",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:48:24.819Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 70,
+        "fields": {
+            "name": "Creatine Clearance",
+            "uom": "ml/min",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:49:19.472Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 71,
+        "fields": {
+            "name": "Creatine Phosphokinase",
+            "uom": "mcg/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:49:51.429Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 72,
+        "fields": {
+            "name": "Electrolytes Urea And  Creatine",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:50:48.100Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 73,
+        "fields": {
+            "name": "Creatine Kinase",
+            "uom": "ng/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": []
+            },
+            "created_at": "2022-10-25T11:51:27.082Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 74,
+        "fields": {
+            "name": "urine microscopy test",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:52:13.733Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 75,
+        "fields": {
+            "name": "CSF Infection Analysis",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:53:14.889Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 76,
+        "fields": {
+            "name": "CSF Infection Analysis",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:53:49.592Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 77,
+        "fields": {
+            "name": "CSF Infection Analysis",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:54:29.581Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 78,
+        "fields": {
+            "name": "CSF Gram Stain",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:55:02.929Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 79,
+        "fields": {
+            "name": "CSF Microscopy And Count",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:55:43.084Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 80,
+        "fields": {
+            "name": "CSF Total Protein",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:56:13.125Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 81,
+        "fields": {
+            "name": "Chloride",
+            "uom": "mmol/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:56:33.695Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 82,
+        "fields": {
+            "name": "CSF INDIAN INK",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:56:54.365Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 83,
+        "fields": {
+            "name": "Cytomegalovirus",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:57:26.089Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 84,
+        "fields": {
+            "name": "D Dimer Assay",
+            "uom": "ng/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:57:50.784Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 85,
+        "fields": {
+            "name": "Digoxin Serum Level",
+            "uom": "ng/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:58:31.164Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 86,
+        "fields": {
+            "name": "ANTI DS DNA",
+            "uom": "iu/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:58:57.519Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 87,
+        "fields": {
+            "name": "Drug Panel Test",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T11:59:28.307Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 88,
+        "fields": {
+            "name": "Dehydroepiandroster One",
+            "uom": "pg/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T12:00:11.384Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 89,
+        "fields": {
+            "name": "Swab",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:12:33.528Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 90,
+        "fields": {
+            "name": "Estimated Glomerular Filtration Rate",
+            "uom": "ml/min",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:13:38.642Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 91,
+        "fields": {
+            "name": "Elisa HIV Screening",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:14:14.995Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 92,
+        "fields": {
+            "name": "Elisa VDRL",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:15:19.552Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 93,
+        "fields": {
+            "name": "Swab M/C/S",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": []
+            },
+            "created_at": "2022-10-25T19:15:46.520Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 94,
+        "fields": {
+            "name": "Endometrial Antibody",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:16:21.052Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 95,
+        "fields": {
+            "name": "Eosinophils",
+            "uom": "10/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:17:12.367Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 96,
+        "fields": {
+            "name": "Eosinophils",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:17:45.724Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 97,
+        "fields": {
+            "name": "Epithelial Cells",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:18:23.829Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 98,
+        "fields": {
+            "name": "Erythrocyte Sedimentation Rate",
+            "uom": "mm/hr",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:19:12.574Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 99,
+        "fields": {
+            "name": "Estradiol",
+            "uom": "pg/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:19:39.737Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 100,
+        "fields": {
+            "name": "Retractable Nuclear Antigens ENA Quantitive",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:20:31.198Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 101,
+        "fields": {
+            "name": "Factor VII Factor 8 Assay",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:21:13.083Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 102,
+        "fields": {
+            "name": "Factor V Leiden",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:21:43.538Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 103,
+        "fields": {
+            "name": "Fasting Blood Sugar",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:22:15.143Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 104,
+        "fields": {
+            "name": "Fasting Blood Sugar",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:22:47.930Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 105,
+        "fields": {
+            "name": "Fasting C Peptide",
+            "uom": "ng/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:23:21.461Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 106,
+        "fields": {
+            "name": "Ferritin",
+            "uom": "ng/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:23:55.714Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 107,
+        "fields": {
+            "name": "Fluid Aspirate M/C/S",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:24:37.303Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 108,
+        "fields": {
+            "name": "Fine Needle Aspiration Cytology",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:39:06.245Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 109,
+        "fields": {
+            "name": "Stool Occult Blood Test",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:39:55.994Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 110,
+        "fields": {
+            "name": "Folate",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:40:16.577Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 111,
+        "fields": {
+            "name": "Follicle Stimulating Hormone",
+            "uom": "mIU/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:41:07.481Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 112,
+        "fields": {
+            "name": "Free T3",
+            "uom": "pg/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:41:31.765Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 113,
+        "fields": {
+            "name": "Free T4",
+            "uom": "ng/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:42:08.978Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 114,
+        "fields": {
+            "name": "Free Testosterone",
+            "uom": "ng/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:42:47.352Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 115,
+        "fields": {
+            "name": "Follicle Stimulating Hormone",
+            "uom": "mIU/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:43:33.865Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 116,
+        "fields": {
+            "name": "G-6-P-D Screening",
+            "uom": "units/g",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:44:44.942Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 117,
+        "fields": {
+            "name": "Liver Function Test",
+            "uom": "u/i",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:45:32.934Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 118,
+        "fields": {
+            "name": "Genexpert TB Test",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:46:14.537Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 119,
+        "fields": {
+            "name": "Gliadin Antibodglobulin",
+            "uom": "G/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:47:06.213Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 120,
+        "fields": {
+            "name": "Glutamic Acid Decarboxylase",
+            "uom": "iu/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:48:18.985Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 121,
+        "fields": {
+            "name": "glycosylated Haemoglobin",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:49:22.757Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 122,
+        "fields": {
+            "name": "Serum H. Pylori",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:49:58.844Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 123,
+        "fields": {
+            "name": "Haemoglobin",
+            "uom": "g/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:50:33.599Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 124,
+        "fields": {
+            "name": "Hepatitis A Antibodies",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:51:39.507Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 125,
+        "fields": {
+            "name": "HB Genotype",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:52:04.924Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 126,
+        "fields": {
+            "name": "HBeAg Hepatits B Envelope Antigen",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:52:52.909Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 127,
+        "fields": {
+            "name": "Hepatitis B Surface Antigen Screening",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-25T19:53:41.852Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 128,
+        "fields": {
+            "name": "HBeAb Hepatits B Envelope Antibodies",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:23:17.581Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 129,
+        "fields": {
+            "name": "HBSAG Hepatits B Core Antibodies",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:24:19.943Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 130,
+        "fields": {
+            "name": "HBSAG Hepatits B Surface Antibody",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:25:14.915Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 131,
+        "fields": {
+            "name": "Hepatits B Surface Antigen-ELISA",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:26:01.369Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 132,
+        "fields": {
+            "name": "Hepatits B HBV Viral DNA Load",
+            "uom": "iu/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:26:56.151Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 133,
+        "fields": {
+            "name": "Bicarbonate HC03",
+            "uom": "mmol/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:27:37.966Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 134,
+        "fields": {
+            "name": "AntiHCV Screening",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:28:29.054Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 135,
+        "fields": {
+            "name": "HCV Elisa Screening",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:29:12.854Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 136,
+        "fields": {
+            "name": "HDL Chlosterol",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:29:42.612Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 137,
+        "fields": {
+            "name": "Heaf Mantoux Test",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:30:26.857Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 138,
+        "fields": {
+            "name": "Heamoglobin Quantification Using HPLC",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:31:28.969Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 139,
+        "fields": {
+            "name": "Helocobater pylori [stool antige]",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:32:22.431Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 140,
+        "fields": {
+            "name": "Hepatits C viral [HCV] RNA Load",
+            "uom": "iu/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:33:18.727Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 141,
+        "fields": {
+            "name": "Hepatits C virus Genotype",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:33:55.674Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 142,
+        "fields": {
+            "name": "Herpes 1&2 IgM and IgG",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:37:02.237Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 143,
+        "fields": {
+            "name": "Swab M/C/S",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:37:38.424Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 144,
+        "fields": {
+            "name": "Tissue Block Request For External Use",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:39:25.225Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 145,
+        "fields": {
+            "name": "HIV  1&2 Screening",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:40:32.653Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 146,
+        "fields": {
+            "name": "HIV Confirmatory",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:42:14.377Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 147,
+        "fields": {
+            "name": "HIV Viral Load",
+            "uom": "copies/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:43:02.812Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 148,
+        "fields": {
+            "name": "Huma Growth Hormone",
+            "uom": "ng/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:43:56.326Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 149,
+        "fields": {
+            "name": "Human Papilloma Virus-PCR",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": []
+            },
+            "created_at": "2022-10-30T11:45:26.096Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 150,
+        "fields": {
+            "name": "Human Papilloma Virus-LBC",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:46:15.173Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 151,
+        "fields": {
+            "name": "Immunohistochemical Staining With CD21-IHC CD21",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:48:21.681Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 152,
+        "fields": {
+            "name": "Immunohistomical Staining With 5 Panel-IHC5",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:49:49.115Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 153,
+        "fields": {
+            "name": "International Normalised Ratio",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:50:29.425Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 154,
+        "fields": {
+            "name": "Iron",
+            "uom": "mcg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:51:14.853Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 155,
+        "fields": {
+            "name": "Karyotyping",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:51:42.494Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 156,
+        "fields": {
+            "name": "Ketone",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:52:16.032Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 157,
+        "fields": {
+            "name": "Kidney Stones Anaylisis",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:52:56.726Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 158,
+        "fields": {
+            "name": "Lactate Dehydrogenase",
+            "uom": "iu/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:53:48.246Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 159,
+        "fields": {
+            "name": "LOL Chlestrol",
+            "uom": "mg/dl",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:54:13.826Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 160,
+        "fields": {
+            "name": "Leococytes",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:54:54.319Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 161,
+        "fields": {
+            "name": "LH[Male]",
+            "uom": "DUPLICATE",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:55:32.980Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 162,
+        "fields": {
+            "name": "Lipase",
+            "uom": "u/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:55:59.276Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 163,
+        "fields": {
+            "name": "Lupus Anticoagulant",
+            "uom": "units",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:56:46.364Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 164,
+        "fields": {
+            "name": "LUPUS ERYTHROMATOSUS LE CELLS TEST",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:57:29.759Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 165,
+        "fields": {
+            "name": "Luteinizing Hormone",
+            "uom": "miu/ml",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:58:25.964Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 166,
+        "fields": {
+            "name": "Lymphnodes Histolgy",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T11:59:22.704Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 167,
+        "fields": {
+            "name": "Lymphocyte percentage",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T12:00:17.592Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 168,
+        "fields": {
+            "name": "Lymphocyte Count",
+            "uom": "10^9/l",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Float",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T12:01:01.299Z"
+        }
+    },
+    {
+        "model": "laboratory.labobservation",
+        "pk": 169,
+        "fields": {
+            "name": "Cardiac Enzyme Panel",
+            "uom": "TEXT",
+            "reference_range": [
+                {
+                    "name": ""
+                }
+            ],
+            "type": {
+                "name": "Text",
+                "values": [
+                    {
+                        "name": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-30T12:02:31.727Z"
+        }
+    }
+]

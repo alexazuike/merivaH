@@ -1,0 +1,10 @@
+[
+{
+    "model": "laboratory.servicecenter",
+    "pk": 1,
+    "fields": {
+        "name": "main lab",
+        "created_at": "2022-07-01T22:50:40.189Z"
+    }
+}
+]

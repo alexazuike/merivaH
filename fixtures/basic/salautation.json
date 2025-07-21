@@ -1,0 +1,44 @@
+[
+{
+    "model": "core.salutation",
+    "pk": 1,
+    "fields": {
+        "salutations": "Ms."
+    }
+},
+{
+    "model": "core.salutation",
+    "pk": 2,
+    "fields": {
+        "salutations": "Mr."
+    }
+},
+{
+    "model": "core.salutation",
+    "pk": 3,
+    "fields": {
+        "salutations": "Mrs."
+    }
+},
+{
+    "model": "core.salutation",
+    "pk": 4,
+    "fields": {
+        "salutations": "Dr."
+    }
+},
+{
+    "model": "core.salutation",
+    "pk": 5,
+    "fields": {
+        "salutations": "Prof."
+    }
+},
+{
+    "model": "core.salutation",
+    "pk": 6,
+    "fields": {
+        "salutations": "Eng."
+    }
+}
+]

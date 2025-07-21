@@ -1,0 +1,769 @@
+[
+{
+    "model": "imaging.imagingobservation",
+    "pk": 1,
+    "fields": {
+        "name": "Renal Biopsy Under USS",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000003",
+        "created_at": "2022-07-01T16:14:46.150Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 2,
+    "fields": {
+        "name": "Ultrasound Head (Transfrontanelle Scan)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000004",
+        "created_at": "2022-07-01T16:14:47.018Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 3,
+    "fields": {
+        "name": "Ultrasound Neck Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000005",
+        "created_at": "2022-07-01T16:14:47.904Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 4,
+    "fields": {
+        "name": "Ultrasound Soft Tissue Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000006",
+        "created_at": "2022-07-01T16:14:48.831Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 5,
+    "fields": {
+        "name": "Ultrasound Thyroid Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000007",
+        "created_at": "2022-07-01T16:14:50.044Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 6,
+    "fields": {
+        "name": "Ultrasound Breast Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000008",
+        "created_at": "2022-07-01T16:14:50.917Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 7,
+    "fields": {
+        "name": "Ultrasound Obstetric Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000009",
+        "created_at": "2022-07-01T16:14:51.779Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 8,
+    "fields": {
+        "name": "Ultrasound Guided Procedure",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000010",
+        "created_at": "2022-07-01T16:14:52.676Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 9,
+    "fields": {
+        "name": "Prostrate Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000011",
+        "created_at": "2022-07-01T16:14:53.525Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 10,
+    "fields": {
+        "name": "Ultrasound Abdomen Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000012",
+        "created_at": "2022-07-01T16:14:54.404Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 11,
+    "fields": {
+        "name": "Ultrasound Abdomen & Pelvis Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000013",
+        "created_at": "2022-07-01T16:14:55.289Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 12,
+    "fields": {
+        "name": "Ultrasound KUB",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000014",
+        "created_at": "2022-07-01T16:14:56.153Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 13,
+    "fields": {
+        "name": "Ultrasound GYN/OBG",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000015",
+        "created_at": "2022-07-01T16:14:56.997Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 14,
+    "fields": {
+        "name": "Biophysical Profile Parts Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000016",
+        "created_at": "2022-07-01T16:14:57.917Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 15,
+    "fields": {
+        "name": "Ultrasound Small Parts Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000017",
+        "created_at": "2022-07-01T16:14:59.108Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 16,
+    "fields": {
+        "name": "Color Doppler/Vascular Studies",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000018",
+        "created_at": "2022-07-01T16:15:00.392Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 17,
+    "fields": {
+        "name": "Follicle Monitoring (Ovulation/Follicular Tracking)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000019",
+        "created_at": "2022-07-01T16:15:01.249Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 18,
+    "fields": {
+        "name": "Ultrasound Pelvis Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000020",
+        "created_at": "2022-07-01T16:15:02.110Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 19,
+    "fields": {
+        "name": "Ultrasound Testicular /Scrotal Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000021",
+        "created_at": "2022-07-01T16:15:03.051Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 20,
+    "fields": {
+        "name": "Trans Rectal (Prostrate) Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000022",
+        "created_at": "2022-07-01T16:15:04.021Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 21,
+    "fields": {
+        "name": "Musculoskeletal USS",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000023",
+        "created_at": "2022-07-01T16:15:05.326Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 22,
+    "fields": {
+        "name": "Occular Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000024",
+        "created_at": "2022-07-01T16:15:06.649Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 23,
+    "fields": {
+        "name": "Trans Vaginal Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000025",
+        "created_at": "2022-07-01T16:15:07.587Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 24,
+    "fields": {
+        "name": "Chest (PA Only)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000026",
+        "created_at": "2022-07-01T16:15:08.887Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 25,
+    "fields": {
+        "name": "Chest (PA & LAT)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000027",
+        "created_at": "2022-07-01T16:15:09.780Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 26,
+    "fields": {
+        "name": "Lumbo - Sacral (AP & Lat)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000028",
+        "created_at": "2022-07-01T16:15:10.671Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 27,
+    "fields": {
+        "name": "Sternum",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000029",
+        "created_at": "2022-07-01T16:17:05.046Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 28,
+    "fields": {
+        "name": "Lumber Spine (AP & Lat)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000030",
+        "created_at": "2022-07-01T16:17:05.846Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 29,
+    "fields": {
+        "name": "PNS",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000031",
+        "created_at": "2022-07-01T16:17:06.995Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 30,
+    "fields": {
+        "name": "X-ray Thigh / Femur: (A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000032",
+        "created_at": "2022-07-01T16:17:07.794Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 31,
+    "fields": {
+        "name": "X-ray Knee (A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000033",
+        "created_at": "2022-07-01T16:17:08.610Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 32,
+    "fields": {
+        "name": "X-ray Leg(A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000034",
+        "created_at": "2022-07-01T16:17:09.395Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 33,
+    "fields": {
+        "name": "X-ray Ankle(A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000035",
+        "created_at": "2022-07-01T16:17:10.508Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 34,
+    "fields": {
+        "name": "X-ray Foot (A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000036",
+        "created_at": "2022-07-01T16:18:12.978Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 35,
+    "fields": {
+        "name": "Hysteronsalpingography (HSG)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000037",
+        "created_at": "2022-07-01T16:18:13.782Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 36,
+    "fields": {
+        "name": "Sinuses (Paranasal)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000038",
+        "created_at": "2022-07-01T16:18:14.927Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 37,
+    "fields": {
+        "name": "Thoracic Spine (ap & Lat)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000039",
+        "created_at": "2022-07-01T16:18:16.112Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 38,
+    "fields": {
+        "name": "Cervical Spine (All Views)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000040",
+        "created_at": "2022-07-01T16:18:16.876Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 39,
+    "fields": {
+        "name": "Skull (AP & Lat)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000041",
+        "created_at": "2022-07-01T16:18:17.663Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 40,
+    "fields": {
+        "name": "Thoraco-Lumbar (AP & Lat)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000042",
+        "created_at": "2022-07-01T16:18:18.463Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 41,
+    "fields": {
+        "name": "X-ray Shoulder: (A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000043",
+        "created_at": "2022-07-01T16:18:19.593Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 42,
+    "fields": {
+        "name": "X-ray Elbow Joint (A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000044",
+        "created_at": "2022-07-01T16:18:20.374Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 43,
+    "fields": {
+        "name": "X-ray Forearm (A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000045",
+        "created_at": "2022-07-01T16:18:21.529Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 44,
+    "fields": {
+        "name": "X-ray Wrist (A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000046",
+        "created_at": "2022-07-01T16:18:22.340Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 45,
+    "fields": {
+        "name": "X-ray Hand (A) Right (B) Left",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000047",
+        "created_at": "2022-07-01T16:18:23.889Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 46,
+    "fields": {
+        "name": "Hysteronsalpingography (HSG)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000048",
+        "created_at": "2022-07-01T16:18:25.070Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 47,
+    "fields": {
+        "name": "Barium Meal & Follow Through",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000049",
+        "created_at": "2022-07-01T16:18:25.847Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 48,
+    "fields": {
+        "name": "Barium Swallow",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000050",
+        "created_at": "2022-07-01T16:18:26.675Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 49,
+    "fields": {
+        "name": "Barium Enema",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000051",
+        "created_at": "2022-07-01T16:18:27.473Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 50,
+    "fields": {
+        "name": "Barium Meal",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000052",
+        "created_at": "2022-07-01T16:18:28.267Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 51,
+    "fields": {
+        "name": "MCUG/RUCG",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000053",
+        "created_at": "2022-07-01T16:18:29.426Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 52,
+    "fields": {
+        "name": "Intravenous Urography (IVU)",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000054",
+        "created_at": "2022-07-01T16:18:30.220Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 53,
+    "fields": {
+        "name": "Fistulogram",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000055",
+        "created_at": "2022-07-01T16:18:31.063Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 54,
+    "fields": {
+        "name": "Cysto Urethrogram",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000056",
+        "created_at": "2022-07-01T16:18:31.872Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 55,
+    "fields": {
+        "name": "ECG",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000057",
+        "created_at": "2022-07-01T16:18:32.714Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 56,
+    "fields": {
+        "name": "2-D Echo",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000058",
+        "created_at": "2022-07-01T16:18:33.895Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 57,
+    "fields": {
+        "name": "EEG",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000059",
+        "created_at": "2022-07-01T16:18:34.781Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 58,
+    "fields": {
+        "name": "Magnetic Resonance Imaging MRI",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000060",
+        "created_at": "2022-07-01T16:19:49.521Z"
+    }
+},
+{
+    "model": "imaging.imagingobservation",
+    "pk": 59,
+    "fields": {
+        "name": "CT Scan",
+        "active": true,
+        "modality": 1,
+        "status": null,
+        "audit_log": [],
+        "bill_item_code": "IMG202207000061",
+        "created_at": "2022-07-01T16:19:50.770Z"
+    }
+}
+]

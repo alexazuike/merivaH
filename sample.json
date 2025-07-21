@@ -1,0 +1,616 @@
+{
+    "title": "Demo 1",
+    "description": "Used to assess bone recovery",
+    "content": [
+        {
+            "cols": [
+                {
+                    "show": false,
+                    "header": "Title",
+                    "required": false,
+                    "form_field": [
+                        {
+                            "type": "text",
+                            "context": "X-ray",
+                            "options": "Bone"
+                        }
+                    ]
+                },
+                {
+                    "show": false,
+                    "header": "Title",
+                    "context": "",
+                    "required": false,
+                    "form_field": [
+                        {
+                            "type": "text",
+                            "context": "Color",
+                            "options": "white"
+                        }
+                    ]
+                }
+            ],
+            "show": false,
+            "section": "Section 1"
+        },
+        {
+            "cols": [
+                {
+                    "show": false,
+                    "header": "X-ray analysis",
+                    "context": "",
+                    "required": false,
+                    "form_field": [
+                        {
+                            "type": "text-area",
+                            "context": "Assessment",
+                            "options": "Broken knee"
+                        }
+                    ]
+                }
+            ],
+            "show": false,
+            "section": "Section 2"
+        },
+        {
+            "cols": [
+                {
+                    "show": false,
+                    "header": "Estimated recovery date",
+                    "context": "",
+                    "required": false,
+                    "form_field": [
+                        {
+                            "type": "date",
+                            "context": "Please choose",
+                            "options": "2023-03-20"
+                        }
+                    ]
+                },
+                {
+                    "show": false,
+                    "header": "Next visit",
+                    "context": "",
+                    "required": false,
+                    "form_field": [
+                        {
+                            "type": "date",
+                            "context": "Please choose",
+                            "options": "2023-02-03"
+                        }
+                    ]
+                }
+            ],
+            "show": false,
+            "section": "Section 3"
+        },
+        {
+            "cols": [
+                {
+                    "show": false,
+                    "header": "Coloration",
+                    "context": "",
+                    "required": false,
+                    "form_field": [
+                        {
+                            "type": "dropdown",
+                            "context": "Please choose",
+                            "options": [
+                                {
+                                    "value": "Blue"
+                                },
+                                {
+                                    "value": "Red"
+                                },
+                                {
+                                    "value": "Yellow"
+                                },
+                                {
+                                    "value": "Green"
+                                },
+                                {
+                                    "value": "Black"
+                                }
+                            ],
+                            "selected": "Red"
+                        }
+                    ]
+                },
+                {
+                    "show": false,
+                    "header": "Healing rate",
+                    "context": "",
+                    "required": false,
+                    "form_field": [
+                        {
+                            "type": "dropdown",
+                            "context": "Please choose",
+                            "options": [
+                                {
+                                    "value": "Fast"
+                                },
+                                {
+                                    "value": "Average"
+                                },
+                                {
+                                    "value": "Slow"
+                                }
+                            ],
+                            "selected": "Average"
+                        }
+                    ]
+                }
+            ],
+            "show": false,
+            "section": "Section 4"
+        },
+        {
+            "cols": [
+                {
+                    "show": false,
+                    "header": "Orders",
+                    "context": "",
+                    "required": false,
+                    "form_field": [
+                        {
+                            "type": "imaging",
+                            "context": "Imaging",
+                            "options": ""
+                        },
+                        {
+                            "type": "diagnosis",
+                            "context": "Diagnosis",
+                            "options": ""
+                        },
+                        {
+                            "type": "nursing",
+                            "context": "Nursing",
+                            "options": ""
+                        }
+                    ],
+                    "orders": {
+                        "laboratory": {},
+                        "imaging": {
+                            "img_obv": [
+                                60,
+                                58
+                            ],
+                            "diagnosis": [],
+                            "ordering_physician": "",
+                            "referral_facility": "",
+                            "comments": "",
+                            "service_center": 1,
+                            "patient": {
+                                "id": 42,
+                                "age": {
+                                    "day": 11,
+                                    "year": 23,
+                                    "month": 9
+                                },
+                                "lga": null,
+                                "uhid": "UHID22000042",
+                                "email": null,
+                                "gender": "Male",
+                                "deposit": "0.00",
+                                "is_baby": false,
+                                "reserve": "0.00",
+                                "identity": {
+                                    "type": null,
+                                    "number": null,
+                                    "validity": null
+                                },
+                                "lastname": "Nnaemeka",
+                                "religion": null,
+                                "state_id": null,
+                                "firstname": "Victor",
+                                "created_at": "2022-12-13T09:00:37.071811Z",
+                                "middlename": "O",
+                                "salutation": "Ms.",
+                                "nationality": null,
+                                "next_of_kin": {
+                                    "city": null,
+                                    "name": null,
+                                    "address": null,
+                                    "country": null,
+                                    "postal_code": null,
+                                    "phone_number": null,
+                                    "relationship": null
+                                },
+                                "service_arm": null,
+                                "home_address": {
+                                    "city": null,
+                                    "address": null,
+                                    "country": null
+                                },
+                                "phone_number": "070888961523",
+                                "date_of_birth": "1999-02-02",
+                                "marital_status": "Married",
+                                "payment_scheme": [
+                                    {
+                                        "exp_date": "2022-12-30",
+                                        "enrollee_id": "192979237498",
+                                        "payer_scheme": {
+                                            "id": 15,
+                                            "name": "Hygeia",
+                                            "type": "INSURANCE"
+                                        },
+                                        "relationship": "PRINCIPAL"
+                                    }
+                                ],
+                                "service_arm_no": null,
+                                "profile_picture": null
+                            },
+                            "stat": true,
+                            "img_list": [
+                                {
+                                    "id": 60,
+                                    "bill_price": "8678.60",
+                                    "cost_price": "3000.00",
+                                    "name": "Breast CT scan",
+                                    "active": true,
+                                    "status": "",
+                                    "audit_log": [
+                                        {
+                                            "user": {
+                                                "id": 1,
+                                                "email": "admin@gmail.com",
+                                                "username": "admin",
+                                                "last_name": "James",
+                                                "first_name": "Dimeji"
+                                            },
+                                            "event": "create",
+                                            "fields": {
+                                                "name": "Breast CT scan",
+                                                "active": true,
+                                                "status": "",
+                                                "modality": 1,
+                                                "bill_price": "10000",
+                                                "cost_price": "10000",
+                                                "img_unit_id": 1
+                                            },
+                                            "date_time": "2022-07-15 05:06:28.315361"
+                                        },
+                                        {
+                                            "user": {
+                                                "id": 1,
+                                                "email": "admin@gmail.com",
+                                                "username": "admin",
+                                                "last_name": "James",
+                                                "first_name": "Dimeji"
+                                            },
+                                            "event": "create",
+                                            "fields": {
+                                                "id": 60,
+                                                "name": "Breast CT scan",
+                                                "active": true,
+                                                "status": "",
+                                                "modality": 1,
+                                                "audit_log": [
+                                                    {
+                                                        "user": {
+                                                            "id": 1,
+                                                            "email": "admin@gmail.com",
+                                                            "username": "admin",
+                                                            "last_name": "James",
+                                                            "first_name": "Dimeji"
+                                                        },
+                                                        "event": "create",
+                                                        "fields": {
+                                                            "name": "Breast CT scan",
+                                                            "active": true,
+                                                            "status": "",
+                                                            "modality": 1,
+                                                            "bill_price": "10000",
+                                                            "cost_price": "10000",
+                                                            "img_unit_id": 1
+                                                        },
+                                                        "date_time": "2022-07-15 05:06:28.315361"
+                                                    }
+                                                ],
+                                                "bill_price": "5000",
+                                                "cost_price": "5000",
+                                                "created_at": "2022-07-15T10:19:42.368947Z",
+                                                "bill_item_code": "IMG202207000066"
+                                            },
+                                            "date_time": "2022-07-15 05:06:28.315361"
+                                        }
+                                    ],
+                                    "bill_item_code": "IMG202207000066",
+                                    "created_at": "2022-07-15T10:19:42.368947Z",
+                                    "modality": {
+                                        "id": 1,
+                                        "name": "X-ray Unit",
+                                        "order_no": 1,
+                                        "created_at": "2022-07-01T16:02:02.508000Z"
+                                    }
+                                },
+                                {
+                                    "id": 58,
+                                    "bill_price": "80000.00",
+                                    "cost_price": "0.00",
+                                    "name": "Magnetic Resonance Imaging MRI",
+                                    "active": true,
+                                    "status": null,
+                                    "audit_log": [],
+                                    "bill_item_code": "IMG202207000060",
+                                    "created_at": "2022-07-01T16:19:49.521000Z",
+                                    "modality": {
+                                        "id": 1,
+                                        "name": "X-ray Unit",
+                                        "order_no": 1,
+                                        "created_at": "2022-07-01T16:02:02.508000Z"
+                                    }
+                                }
+                            ]
+                        },
+                        "prescription": {},
+                        "nursing": {
+                            "description": "uhigig",
+                            "patient": {
+                                "id": 42,
+                                "age": {
+                                    "day": 11,
+                                    "year": 23,
+                                    "month": 9
+                                },
+                                "lga": null,
+                                "uhid": "UHID22000042",
+                                "email": null,
+                                "gender": "Male",
+                                "deposit": "0.00",
+                                "is_baby": false,
+                                "reserve": "0.00",
+                                "identity": {
+                                    "type": null,
+                                    "number": null,
+                                    "validity": null
+                                },
+                                "lastname": "Nnaemeka",
+                                "religion": null,
+                                "state_id": null,
+                                "firstname": "Victor",
+                                "created_at": "2022-12-13T09:00:37.071811Z",
+                                "middlename": "O",
+                                "salutation": "Ms.",
+                                "nationality": null,
+                                "next_of_kin": {
+                                    "city": null,
+                                    "name": null,
+                                    "address": null,
+                                    "country": null,
+                                    "postal_code": null,
+                                    "phone_number": null,
+                                    "relationship": null
+                                },
+                                "service_arm": null,
+                                "home_address": {
+                                    "city": null,
+                                    "address": null,
+                                    "country": null
+                                },
+                                "phone_number": "070888961523",
+                                "date_of_birth": "1999-02-02",
+                                "marital_status": "Married",
+                                "payment_scheme": [
+                                    {
+                                        "exp_date": "2022-12-30",
+                                        "enrollee_id": "192979237498",
+                                        "payer_scheme": {
+                                            "id": 15,
+                                            "name": "Hygeia",
+                                            "type": "INSURANCE"
+                                        },
+                                        "relationship": "PRINCIPAL"
+                                    }
+                                ],
+                                "service_arm_no": null,
+                                "profile_picture": null
+                            },
+                            "station": 2
+                        },
+                        "diagnosis": [
+                            {
+                                "diagnosis": {
+                                    "id": 1,
+                                    "type": "icd10",
+                                    "case": "Cholera",
+                                    "code": "A00"
+                                },
+                                "status": "working"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "show": false,
+            "section": "Section 5"
+        }
+    ],
+    "is_active": false,
+    "orders": {
+        "laboratory": {},
+        "imaging": {
+            "img_obv": [
+                60,
+                58
+            ],
+            "diagnosis": [],
+            "ordering_physician": "",
+            "referral_facility": "",
+            "comments": "",
+            "service_center": 1,
+            "patient": {
+                "id": 42,
+                "age": {
+                    "day": 11,
+                    "year": 23,
+                    "month": 9
+                },
+                "lga": null,
+                "uhid": "UHID22000042",
+                "email": null,
+                "gender": "Male",
+                "deposit": "0.00",
+                "is_baby": false,
+                "reserve": "0.00",
+                "identity": {
+                    "type": null,
+                    "number": null,
+                    "validity": null
+                },
+                "lastname": "Nnaemeka",
+                "religion": null,
+                "state_id": null,
+                "firstname": "Victor",
+                "created_at": "2022-12-13T09:00:37.071811Z",
+                "middlename": "O",
+                "salutation": "Ms.",
+                "nationality": null,
+                "next_of_kin": {
+                    "city": null,
+                    "name": null,
+                    "address": null,
+                    "country": null,
+                    "postal_code": null,
+                    "phone_number": null,
+                    "relationship": null
+                },
+                "service_arm": null,
+                "home_address": {
+                    "city": null,
+                    "address": null,
+                    "country": null
+                },
+                "phone_number": "070888961523",
+                "date_of_birth": "1999-02-02",
+                "marital_status": "Married",
+                "payment_scheme": [
+                    {
+                        "exp_date": "2022-12-30",
+                        "enrollee_id": "192979237498",
+                        "payer_scheme": {
+                            "id": 15,
+                            "name": "Hygeia",
+                            "type": "INSURANCE"
+                        },
+                        "relationship": "PRINCIPAL"
+                    }
+                ],
+                "service_arm_no": null,
+                "profile_picture": null
+            },
+            "stat": true,
+            "img_list": [
+                {
+                    "id": 60,
+                    "bill_price": "8678.60",
+                    "cost_price": "3000.00",
+                    "name": "Breast CT scan",
+                    "active": true,
+                    "status": "",
+                    "bill_item_code": "IMG202207000066",
+                    "created_at": "2022-07-15T10:19:42.368947Z",
+                    "modality": {
+                        "id": 1,
+                        "name": "X-ray Unit",
+                        "order_no": 1,
+                        "created_at": "2022-07-01T16:02:02.508000Z"
+                    }
+                },
+                {
+                    "id": 58,
+                    "bill_price": "80000.00",
+                    "cost_price": "0.00",
+                    "name": "Magnetic Resonance Imaging MRI",
+                    "active": true,
+                    "status": null,
+                    "audit_log": [],
+                    "bill_item_code": "IMG202207000060",
+                    "created_at": "2022-07-01T16:19:49.521000Z",
+                    "modality": {
+                        "id": 1,
+                        "name": "X-ray Unit",
+                        "order_no": 1,
+                        "created_at": "2022-07-01T16:02:02.508000Z"
+                    }
+                }
+            ]
+        },
+        "prescription": {},
+        "nursing": {
+            "description": "uhigig",
+            "patient": {
+                "id": 42,
+                "age": {
+                    "day": 11,
+                    "year": 23,
+                    "month": 9
+                },
+                "lga": null,
+                "uhid": "UHID22000042",
+                "email": null,
+                "gender": "Male",
+                "deposit": "0.00",
+                "is_baby": false,
+                "reserve": "0.00",
+                "identity": {
+                    "type": null,
+                    "number": null,
+                    "validity": null
+                },
+                "lastname": "Nnaemeka",
+                "religion": null,
+                "state_id": null,
+                "firstname": "Victor",
+                "created_at": "2022-12-13T09:00:37.071811Z",
+                "middlename": "O",
+                "salutation": "Ms.",
+                "nationality": null,
+                "next_of_kin": {
+                    "city": null,
+                    "name": null,
+                    "address": null,
+                    "country": null,
+                    "postal_code": null,
+                    "phone_number": null,
+                    "relationship": null
+                },
+                "service_arm": null,
+                "home_address": {
+                    "city": null,
+                    "address": null,
+                    "country": null
+                },
+                "phone_number": "070888961523",
+                "date_of_birth": "1999-02-02",
+                "marital_status": "Married",
+                "payment_scheme": [
+                    {
+                        "exp_date": "2022-12-30",
+                        "enrollee_id": "192979237498",
+                        "payer_scheme": {
+                            "id": 15,
+                            "name": "Hygeia",
+                            "type": "INSURANCE"
+                        },
+                        "relationship": "PRINCIPAL"
+                    }
+                ],
+                "service_arm_no": null,
+                "profile_picture": null
+            },
+            "station": 2
+        }
+    },
+    "diagnosis": [
+        {
+            "diagnosis": {
+                "id": 1,
+                "type": "icd10",
+                "case": "Cholera",
+                "code": "A00"
+            },
+            "status": "working"
+        }
+    ]
+}

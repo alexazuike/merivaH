@@ -1,0 +1,22 @@
+[
+{
+    "model": "encounters.clinic",
+    "pk": 6,
+    "fields": {
+        "name": "General",
+        "Department": 1,
+        "bill_item_code": "ENC202207000062",
+        "is_active": true
+    }
+},
+{
+    "model": "encounters.clinic",
+    "pk": 7,
+    "fields": {
+        "name": "Private",
+        "Department": 1,
+        "bill_item_code": "ENC202207000063",
+        "is_active": true
+    }
+}
+]

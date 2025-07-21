@@ -1,0 +1,30 @@
+[
+{
+    "model": "core.maritalstatus",
+    "pk": 1,
+    "fields": {
+        "marital_status": "Single"
+    }
+},
+{
+    "model": "core.maritalstatus",
+    "pk": 2,
+    "fields": {
+        "marital_status": "Married"
+    }
+},
+{
+    "model": "core.maritalstatus",
+    "pk": 3,
+    "fields": {
+        "marital_status": "Divorced"
+    }
+},
+{
+    "model": "core.maritalstatus",
+    "pk": 4,
+    "fields": {
+        "marital_status": "Widow"
+    }
+}
+]

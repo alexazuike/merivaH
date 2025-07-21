@@ -1,0 +1,12 @@
+[
+{
+    "model": "facilities.department",
+    "pk": 1,
+    "fields": {
+        "name": "Main Department",
+        "description": "Main Department",
+        "display_name": "Main",
+        "is_active": true
+    }
+}
+]

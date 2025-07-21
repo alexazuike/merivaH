@@ -1,0 +1,12 @@
+python manage.py make_panel_price
+python manage.py setup_panel_template
+python manage.py fix_img_obv_order
+python manage.py make_obv_price
+python manage.py add_uuid_invoice_bills
+python manage.py fix_auth_req_bills
+python manage.py fix_bill_item_descpt
+python manage.py fix_invoice_id
+python manage.py fix_payments_bills
+python manage.py repair_scheme_types
+python manage.py migrate_constance
+python manage.py assign_users_menus

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Reports</title>
+    <style>
+        @font-face {
+            font-family: "Roboto";
+            src: url("/Roboto/Roboto-Regular.ttf") format('truetype');
+        }
+
+        body {
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        @page {
+            margin: 1cm;
+            size: A4;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse !important;
+            border-style: solid;
+            border: 2px black solid;
+        }
+
+        tr {
+            border: 1px black solid;
+        }
+
+        td {
+            border: 2px black solid;
+            padding: 4px;
+        }
+
+        .d-flex {
+            display: -ms-flexbox !important;
+            display: flex !important;
+        }
+
+        .align-content-center {
+            -ms-flex-line-pack: center !important;
+            align-content: center !important;
+        }
+
+        .align-items-center {
+            -ms-flex-align: center !important;
+            align-items: center !important;
+        }
+
+        .justify-content-between {
+            -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+        }
+
+        ul {
+            /* list-style: none; */
+            display: block;
+        }
+
+        .no-border-left {
+            border-left: 0px solid white;
+        }
+
+        .no-border-right {
+            border-right: 0px solid white;
+        }
+
+        .no-border-top {
+            border-top: 0px solid white;
+        }
+
+        .no-border-bottom {
+            border-bottom: 0px solid white;
+        }
+
+        .results-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0px 2px;
+            border: 1px 1px 1px 1p black solid;
+        }
+
+        .result {
+            display: flex;
+            flex-basis: 49.68%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .result-field {
+            width: 100%;
+            
+        }
+        @media print {
+
+            body {
+                margin: 0;
+                color: #000;
+                background-color: #fff;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    {% if header %}
+    {{ header | safe }}
+    {% else %}
+    <div style="padding: 8%;">
+    </div>
+    {% endif %}
+
+    <main role="main">
+        <table class="table table-bordered align-middle">
+            <!-- Row A -->
+            <tr>
+                <td style="padding: 15px !important" colspan="5">LABORATORY REPORT ON COMPREHENSIVE CHECK UP</td>
+                <td colspan="3">LAB. REF. NO.<br />
+                    {{ asn }}
+                </td>
+                <!-- <td rowspan="3">5</td> -->
+            </tr>
+            <!-- Row B -->
+            <tr>
+                <td colspan="2" style="padding: 15px !important">
+                    SURNAME:<br />
+                    {{ patient.lastname }}
+                </td>
+                <td colspan="2">
+                    OTHER NAMES:<br />
+                    {{ patient.middlename }} {{ patient.lastname }}
+                </td>
+                <td>
+                    AGE:<br />
+                    {{ patient.age }}
+                </td>
+                <td>
+                    SEX:<br />
+                    {{ patient.gender }}
+                </td>
+                <td colspan="2">
+                    REG NO.:<br />
+                    {{ patient.uhid }}
+                </td>
+            </tr>
+            <!-- Row C -->
+            <tr>
+                <td style="padding: 10px !important" colspan="4">CLINICIAN: <br />{% ordering_physician %}</td>
+
+                <td colspan="4">DATE RECEIVED:<br />{% now "SHORT_DATETIME_FORMAT" %}</td>
+            </tr>
+            <!-- Row D -->
+            <tr>
+            <tr>
+                <td colspan="4" style="border-right: 0px solid white;"><b><u>HEMATOLOGY</b></u></td>
+                <td colspan="4" style="border-left: 0px solid white; text-align: end; padding-right: 10px;">
+                    <b><u>SPECIMEN</b></u></td>
+            </tr>
+            </tr>
+        </table>
+        <div class="results-container no-border-top">
+            <div class="result">
+                <div class="result-field">WBC</div>
+                <div class="result-field">7.7</div>
+                <div class="result-field">mm²</div>
+                <div class="result-field">4.1-11</div>
+            </div>
+            <div class="result">
+                <div class="result-field">WBC</div>
+                <div class="result-field">7.7</div>
+                <div class="result-field">mm²</div>
+                <div class="result-field">4.1-11</div>
+            </div>
+            <div class="result">
+                <div class="result-field">WBC</div>
+                <div class="result-field">7.7</div>
+                <div class="result-field">mm²</div>
+                <div class="result-field">4.1-11</div>
+            </div>
+            <div class="result">
+                <div class="result-field">WBC</div>
+                <div class="result-field">7.7</div>
+                <div class="result-field">mm²</div>
+                <div class="result-field">4.1-11</div>
+            </div>
+            <div class="result">
+                <div class="result-field">WBC</div>
+                <div class="result-field">7.7</div>
+                <div class="result-field">mm²</div>
+                <div class="result-field">4.1-11</div>
+            </div>
+            <div class="result">
+                <div class="result-field">WBC</div>
+                <div class="result-field">7.7</div>
+                <div class="result-field">mm²</div>
+                <div class="result-field">4.1-11</div>
+            </div>
+            <div class="result">
+                <div class="result-field">WBC</div>
+                <div class="result-field">7.7</div>
+                <div class="result-field">mm²</div>
+                <div class="result-field">4.1-11</div>
+            </div>
+            <div class="result">
+                <div class="result-field">WBC</div>
+                <div class="result-field">7.7</div>
+                <div class="result-field">mm²</div>
+                <div class="result-field">4.1-11</div>
+            </div>
+            <div class="result">
+                <div class="result-field">WBC</div>
+                <div class="result-field">7.7</div>
+                <div class="result-field">mm²</div>
+                <div class="result-field">4.1-11</div>
+            </div>
+        </div>
+
+        <tr class="text-break">
+            <td colspan="8" style="width: 400px;"><b>Comment:</b>
+                <i>Laboratory investigations should be interpreted
+                    alongside patient’s clinical presentation, history and other
+                    laboratory results</i>
+            </td>
+        </tr>
+        </table>
+    </main>
+    <footer role="contentinfo">
+        <hr>
+        <p>Some copyright shit</p>
+    </footer>
+</body>
+
+</html>
+
+<tr>
+    <td>WBC</td>
+    <td>7.7</td>
+    <td>mm²</td>
+    <td>4.1-11</td>
+</tr>

@@ -1,0 +1,133 @@
+[
+{
+    "model": "laboratory.labobservation",
+    "pk": 1,
+    "fields": {
+        "name": "General",
+        "uom": "mg/ml",
+        "reference_range": [
+            {
+                "name": "<=70"
+            },
+            {
+                "name": "> 92"
+            }
+        ],
+        "type": {
+            "name": "Integer",
+            "values": [
+                {
+                    "name": ""
+                }
+            ]
+        },
+        "created_at": "2022-06-30T16:42:00.911Z"
+    }
+},
+{
+    "model": "laboratory.labobservation",
+    "pk": 34,
+    "fields": {
+        "name": "HDL - Chol",
+        "uom": "mm2",
+        "reference_range": [
+            {
+                "name": ""
+            }
+        ],
+        "type": {
+            "name": "Float",
+            "values": [
+                {
+                    "name": ""
+                }
+            ]
+        },
+        "created_at": "2022-07-04T17:54:32.753Z"
+    }
+},
+{
+    "model": "laboratory.labobservation",
+    "pk": 35,
+    "fields": {
+        "name": "Triglyceride",
+        "uom": "mm2",
+        "reference_range": [
+            {
+                "name": ""
+            }
+        ],
+        "type": {
+            "name": "Float",
+            "values": [
+                {
+                    "name": ""
+                }
+            ]
+        },
+        "created_at": "2022-07-04T17:54:51.088Z"
+    }
+},
+{
+    "model": "laboratory.labobservation",
+    "pk": 36,
+    "fields": {
+        "name": "Total Cholesterol",
+        "uom": "mm2",
+        "reference_range": [
+            {
+                "name": ""
+            }
+        ],
+        "type": {
+            "name": "Float",
+            "values": [
+                {
+                    "name": ""
+                }
+            ]
+        },
+        "created_at": "2022-07-04T17:55:11.246Z"
+    }
+},
+{
+    "model": "laboratory.labobservation",
+    "pk": 37,
+    "fields": {
+        "name": "Widal",
+        "uom": "Reactive",
+        "reference_range": [
+            {
+                "name": ""
+            }
+        ],
+        "type": {
+            "name": "Text",
+            "values": [
+                {
+                    "name": ""
+                }
+            ]
+        },
+        "created_at": "2022-07-04T18:03:22.871Z"
+    }
+},
+{
+    "model": "laboratory.labobservation",
+    "pk": 38,
+    "fields": {
+        "name": "HCV",
+        "uom": "mg/ml",
+        "reference_range": [
+            {
+                "name": "80 >= 125"
+            }
+        ],
+        "type": {
+            "name": "Float",
+            "values": []
+        },
+        "created_at": "2022-07-09T09:25:01.697Z"
+    }
+}
+]

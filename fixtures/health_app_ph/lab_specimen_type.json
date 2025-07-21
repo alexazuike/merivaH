@@ -1,0 +1,310 @@
+[
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 1,
+    "fields": {
+        "name": "Lithium Heparin",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:51.810Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 2,
+    "fields": {
+        "name": "Plain Bottle/HCL",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:52.067Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 3,
+    "fields": {
+        "name": "Flouride Oxalate",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:52.334Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 4,
+    "fields": {
+        "name": "Flouride Oxalate + Universal Container",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:52.481Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 5,
+    "fields": {
+        "name": "EDTA",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:52.638Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 6,
+    "fields": {
+        "name": "Plain Bottle",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:52.779Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 7,
+    "fields": {
+        "name": "Contact Laboratory",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:52.978Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 8,
+    "fields": {
+        "name": "Lithium Heparin/Plain bottle",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:53.116Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 9,
+    "fields": {
+        "name": "Plain Bottle/Lithium",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:53.284Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 10,
+    "fields": {
+        "name": "Plain Bottle/Lithium Heparin",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:53.516Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 11,
+    "fields": {
+        "name": " Contact laboratory",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:53.704Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 12,
+    "fields": {
+        "name": "Detection (Quantiferon)",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:53.914Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 13,
+    "fields": {
+        "name": "Sodium  Citrate",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:54.084Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 14,
+    "fields": {
+        "name": "Patient",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:54.634Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 15,
+    "fields": {
+        "name": "Glass Bottle/Patient",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:54.787Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 16,
+    "fields": {
+        "name": "Universal Container",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:54.952Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 17,
+    "fields": {
+        "name": "Plain Bottle/Formalin",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:55.103Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 18,
+    "fields": {
+        "name": "Plain Bottle    ",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:55.241Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 19,
+    "fields": {
+        "name": "Plain bottle",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:55.390Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 20,
+    "fields": {
+        "name": "Pain Bottle",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:55.529Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 21,
+    "fields": {
+        "name": "Plain Bottle\nPlain Bottle\nPlain Bottle\nPlain Bottle\nPlain Bottle",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:55.674Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 22,
+    "fields": {
+        "name": "nan",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:55.951Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 23,
+    "fields": {
+        "name": "Universal Container ",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:56.114Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 24,
+    "fields": {
+        "name": "Swab Stick",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:56.300Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 25,
+    "fields": {
+        "name": "Aerobic/Anaerobic Bottle",
+        "color": "#FFFFFF",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:56.459Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 26,
+    "fields": {
+        "name": "Plain paper",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:56.620Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 27,
+    "fields": {
+        "name": "805000",
+        "color": "#800080",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T16:03:56.783Z"
+    }
+},
+{
+    "model": "laboratory.labspecimentype",
+    "pk": 28,
+    "fields": {
+        "name": "Contact Lab",
+        "color": "#F0F0F0",
+        "description": "",
+        "status": true,
+        "created_at": "2022-06-30T17:26:05.449Z"
+    }
+}
+]

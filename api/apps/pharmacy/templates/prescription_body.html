@@ -1,0 +1,85 @@
+{% comment %} Body Section {% endcomment %}
+<table class="table align-middle">
+    <!-- ROW A -->
+    <tr>
+        <td colspan="4" style="padding: 15px !important" class="capitalize">
+            PRESCRIPTION ID:<br />
+            {{ prc_id }}
+        </td>
+        <td colspan="4" class="capitalize">
+            PRESCRIPTION DATE:<br />
+            {{ confirmed_at }}
+        </td>
+    </tr>
+    <!-- Row B -->
+    <tr>
+        <td colspan="2" style="padding: 15px !important" class="capitalize">
+            SURNAME:<br />
+            {{ patient.lastname }}
+        </td>
+        <td colspan="2" class="capitalize">
+            OTHER NAMES:<br />
+            {{ patient.middlename }} {{ patient.firstname }}
+        </td>
+        <td>
+            AGE:<br />
+            {{ patient.age }}
+        </td>
+        <td>
+            GENDER:<br />
+            {{ patient.gender }}
+        </td>
+        <td colspan="2" class="capitalize">
+            UHID.:<br />
+            {{ patient.uhid }}
+        </td>
+    </tr>
+    <!-- ROW C -->
+    <tr>
+        <td colspan="2" style="padding: 15px !important" class="capitalize">
+            PHONE NUMBER:<br />
+            {{ patient.phone_number }}
+        </td>
+        <td colspan="2" class="capitalize">
+            EMAIL:<br />
+            {{ patient.email }}
+        </td>
+        <td colspan="4" class="capitalize">
+            ADDRESS:<br />
+            {{ patient.home_address.address }}, {{ patient.home_address.city }}, {{ patient.home_address.country }}
+        </td>
+    </tr>
+</table>
+
+<div class="full-width m-top border-top border-left border-right keep-together" style="margin-top: 30px; width: 100%;">
+    <div class="d-flex border-bottom padding-round company-theme-color text-color text-center">
+        <div class="full-width padding-round "><b>MEDICATION NAME</b></div>
+        <div class="full-width padding-round "><b>DOSAGE</b></div>
+        <div class="full-width padding-round "><b>ROUTE</b></div>
+        <div class="full-width padding-round "><b>FREQUENCY</b></div>
+    </div>
+    {% for prescription in details %}
+    <div class="d-flex border-bottom padding-round text-center">
+        <div class="full-width padding-round">{{ prescription.generic_drug.name }}</div>
+        <div class="full-width padding-round">{{ prescription.dose.name }}</div>
+        <div class="full-width padding-round">{{ prescription.route.name }}</div>
+        <div class="full-width padding-round">{{ prescription.frequency.name }} </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Physician details -->
+<div class="d-flex">
+    <div class="text-start" style="flex: 1;">
+        <h4 style="margin-bottom: 1px;">
+            PHYSICIAN NAME
+        </h4>
+        {{ prescribing_physician.last_name }} {{ prescribing_physician.first_name }} 
+    </div>
+    <div class="text-end" style="flex: 1;">
+        <h4 style="margin-bottom: 1px;">
+            PHYSICIAN EMAIL
+        </h4>
+        {{ prescribing_physician.email }} 
+    </div>
+</div>

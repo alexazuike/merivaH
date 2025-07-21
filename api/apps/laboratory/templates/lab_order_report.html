@@ -1,0 +1,238 @@
+{% load data_types %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Reports</title>
+    <style>
+        html {
+            -webkit-print-color-adjust: exact;
+        }
+        @font-face {
+            font-family: "Roboto";
+            src: url("/Roboto/Roboto-Regular.ttf") format('truetype');
+        }
+
+        body {
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+            font-size: {{ font_size }}px;
+            padding: 10px;
+        }
+
+        @page {
+            margin: 1cm;
+            size: A4;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse !important;
+            border-style: solid;
+            border: 2px black solid;
+            border-bottom: none;
+        }
+
+        tr {
+            border: 1px black solid;
+        }
+
+        td {
+            border: 2px black solid;
+            padding: 4px;
+        }
+
+        .white-text-color {
+            color: white;
+        }
+
+        .black-text-color {
+            color: black;
+        }
+
+        .d-flex {
+            display: -ms-flexbox !important;
+            display: flex !important;
+        }
+
+        .align-content-center {
+            -ms-flex-line-pack: center !important;
+            align-content: center !important;
+        }
+
+        .align-items-center {
+            -ms-flex-align: center !important;
+            align-items: center !important;
+        }
+
+        .justify-content-between {
+            -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+        }
+
+
+        ul {
+            /* list-style: none; */
+            display: block;
+            list-style-type: none;
+        }
+
+        .tab {
+            margin-left: 15px;
+        }
+
+        .no-border-left {
+            border-left: 0px solid white;
+        }
+
+        .no-border-right {
+            border-right: 0px solid white;
+        }
+
+        .no-border-top {
+            border-top: 0px solid white;
+        }
+
+        .no-border-bottom {
+            border-bottom: 0px solid white;
+        }
+
+        .border-left {
+            border-left: 1px solid black;
+        }
+
+        .border-right {
+            border-right: 1px solid black;
+        }
+
+        .border-top {
+            border-top: 2px solid black;
+        }
+
+        .border-bottom {
+            border-bottom: 2px solid black;
+        }
+
+        .m-btm {
+            margin-bottom: 3px;
+        }
+
+        .m-top {
+            margin-top: 10px
+        }
+
+        .m-right {
+            margin-right: 10px;
+        }
+
+        .m-left {
+            margin-left: 10px;
+        }
+
+        .padding-round {
+            padding: 5px;
+        }
+
+        .full-width {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .flex-1{
+            flex: 1;
+        }
+        .rev-flex-dir {
+            flex-direction: column;
+        }
+
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .capitalize {
+            text-transform: capitalize;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                color: #000;
+                background-color: #fff;
+            }
+        }
+
+        .keep-together {
+            page-break-inside: avoid;
+        }
+        
+        .break-before {
+            page-break-before: always;
+        }
+        
+        .break-after {
+            page-break-after: always;
+        }
+        
+        .company-theme-color {
+            background-color: {{ company_theme_color }};
+        }
+
+        .text-color {
+            color: {{ text_color }};
+        }
+    </style>
+</head>
+
+<body>
+    {% if header %}
+    {{ header | safe }}
+    {% else %}
+    <div style="padding: 8%;">
+    </div>
+    {% endif %}
+
+    <table class="table align-middle">
+        <!-- Row A -->
+        <tr>
+            <td colspan="2" style="padding: 15px !important" class="capitalize">
+                SURNAME:<br />
+                {{ patient.lastname }}
+            </td>
+            <td colspan="2" class="capitalize">
+                OTHER NAMES:<br />
+                {{ patient.middlename }} {{ patient.firstname }}
+            </td>
+            <td>
+                AGE:<br />
+                {{ patient.age }}
+            </td>
+            <td>
+                SEX:<br />
+                {{ patient.gender }}
+            </td>
+            <td colspan="2" class="capitalize">
+                REG NO.:<br />
+                {{ patient.uhid }}
+            </td>
+        </tr>
+        <!-- Row B -->
+
+    </table>
+
+    <!-- <div class="d-flex margin-top border-bottom flex-wrap" style="margin-top: 30px;"> -->
+    {% for panel_order in lab_panel_orders %}
+        {{ panel_order.panel.template | safe }}
+    {% endfor %}
+    <!-- </div> -->
+
+</body>
+
+</html>

@@ -1,0 +1,4070 @@
+[
+{
+    "model": "finance.billableitem",
+    "pk": 1,
+    "fields": {
+        "item_code": "LAB202206000001",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:38:29.912Z",
+        "updated_at": "2022-06-30T17:38:29.912Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 2,
+    "fields": {
+        "item_code": "LAB202206000002",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:39:03.458Z",
+        "updated_at": "2022-06-30T17:39:03.458Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 3,
+    "fields": {
+        "item_code": "LAB202206000003",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:17.201Z",
+        "updated_at": "2022-06-30T17:41:17.201Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 4,
+    "fields": {
+        "item_code": "LAB202206000004",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:18.032Z",
+        "updated_at": "2022-06-30T17:41:18.032Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 5,
+    "fields": {
+        "item_code": "LAB202206000005",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:18.958Z",
+        "updated_at": "2022-06-30T17:41:18.958Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 6,
+    "fields": {
+        "item_code": "LAB202206000006",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:19.796Z",
+        "updated_at": "2022-06-30T17:41:19.796Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 7,
+    "fields": {
+        "item_code": "LAB202206000007",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:20.626Z",
+        "updated_at": "2022-06-30T17:41:20.626Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 8,
+    "fields": {
+        "item_code": "LAB202206000008",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:21.503Z",
+        "updated_at": "2022-06-30T17:41:21.504Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 9,
+    "fields": {
+        "item_code": "LAB202206000009",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:22.457Z",
+        "updated_at": "2022-06-30T17:41:22.457Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 10,
+    "fields": {
+        "item_code": "LAB202206000010",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:23.351Z",
+        "updated_at": "2022-06-30T17:41:23.351Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 11,
+    "fields": {
+        "item_code": "LAB202206000011",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:24.119Z",
+        "updated_at": "2022-06-30T17:41:24.119Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 12,
+    "fields": {
+        "item_code": "LAB202206000012",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:24.907Z",
+        "updated_at": "2022-06-30T17:41:24.907Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 13,
+    "fields": {
+        "item_code": "LAB202206000013",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:25.757Z",
+        "updated_at": "2022-06-30T17:41:25.758Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 14,
+    "fields": {
+        "item_code": "LAB202206000014",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "25000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:26.574Z",
+        "updated_at": "2022-06-30T17:41:26.574Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 15,
+    "fields": {
+        "item_code": "LAB202206000015",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:27.372Z",
+        "updated_at": "2022-06-30T17:41:27.372Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 16,
+    "fields": {
+        "item_code": "LAB202206000016",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:28.281Z",
+        "updated_at": "2022-06-30T17:41:28.281Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 17,
+    "fields": {
+        "item_code": "LAB202206000017",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:29.181Z",
+        "updated_at": "2022-06-30T17:41:29.181Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 18,
+    "fields": {
+        "item_code": "LAB202206000018",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:30.022Z",
+        "updated_at": "2022-06-30T17:41:30.022Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 19,
+    "fields": {
+        "item_code": "LAB202206000019",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:30.859Z",
+        "updated_at": "2022-06-30T17:41:30.859Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 20,
+    "fields": {
+        "item_code": "LAB202206000020",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:31.699Z",
+        "updated_at": "2022-06-30T17:41:31.699Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 21,
+    "fields": {
+        "item_code": "LAB202206000021",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8800.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:32.475Z",
+        "updated_at": "2022-06-30T17:41:32.475Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 22,
+    "fields": {
+        "item_code": "LAB202206000022",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "7500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:33.258Z",
+        "updated_at": "2022-06-30T17:41:33.258Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 23,
+    "fields": {
+        "item_code": "LAB202206000023",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:34.068Z",
+        "updated_at": "2022-06-30T17:41:34.068Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 24,
+    "fields": {
+        "item_code": "LAB202206000024",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:34.855Z",
+        "updated_at": "2022-06-30T17:41:34.855Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 25,
+    "fields": {
+        "item_code": "LAB202206000025",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:35.678Z",
+        "updated_at": "2022-06-30T17:41:35.678Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 26,
+    "fields": {
+        "item_code": "LAB202206000026",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:36.483Z",
+        "updated_at": "2022-06-30T17:41:36.483Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 27,
+    "fields": {
+        "item_code": "LAB202206000027",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:37.274Z",
+        "updated_at": "2022-06-30T17:41:37.274Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 28,
+    "fields": {
+        "item_code": "LAB202206000028",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:38.069Z",
+        "updated_at": "2022-06-30T17:41:38.069Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 29,
+    "fields": {
+        "item_code": "LAB202206000029",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:38.963Z",
+        "updated_at": "2022-06-30T17:41:38.963Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 30,
+    "fields": {
+        "item_code": "LAB202206000030",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:39.738Z",
+        "updated_at": "2022-06-30T17:41:39.738Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 31,
+    "fields": {
+        "item_code": "LAB202206000031",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:40.529Z",
+        "updated_at": "2022-06-30T17:41:40.529Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 32,
+    "fields": {
+        "item_code": "LAB202206000032",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:41.300Z",
+        "updated_at": "2022-06-30T17:41:41.300Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 33,
+    "fields": {
+        "item_code": "LAB202206000033",
+        "description": "Lipid Profile",
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:42.121Z",
+        "updated_at": "2022-07-04T17:55:26.438Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 34,
+    "fields": {
+        "item_code": "LAB202206000034",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:42.930Z",
+        "updated_at": "2022-06-30T17:41:42.930Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 35,
+    "fields": {
+        "item_code": "LAB202206000035",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:43.694Z",
+        "updated_at": "2022-06-30T17:41:43.694Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 36,
+    "fields": {
+        "item_code": "LAB202206000036",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:44.504Z",
+        "updated_at": "2022-06-30T17:41:44.504Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 37,
+    "fields": {
+        "item_code": "LAB202206000037",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "75000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:45.275Z",
+        "updated_at": "2022-06-30T17:41:45.275Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 38,
+    "fields": {
+        "item_code": "LAB202206000038",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "50000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:46.039Z",
+        "updated_at": "2022-06-30T17:41:46.039Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 39,
+    "fields": {
+        "item_code": "LAB202206000039",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:46.842Z",
+        "updated_at": "2022-06-30T17:41:46.842Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 40,
+    "fields": {
+        "item_code": "LAB202206000040",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "400000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:47.617Z",
+        "updated_at": "2022-06-30T17:41:47.617Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 41,
+    "fields": {
+        "item_code": "LAB202206000041",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "400000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:48.749Z",
+        "updated_at": "2022-06-30T17:41:48.749Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 42,
+    "fields": {
+        "item_code": "LAB202206000042",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "141000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:49.538Z",
+        "updated_at": "2022-06-30T17:41:49.538Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 43,
+    "fields": {
+        "item_code": "LAB202206000043",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "45000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:50.332Z",
+        "updated_at": "2022-06-30T17:41:50.332Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 44,
+    "fields": {
+        "item_code": "LAB202206000044",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "200000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:51.144Z",
+        "updated_at": "2022-06-30T17:41:51.144Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 45,
+    "fields": {
+        "item_code": "LAB202206000045",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "30000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:52.002Z",
+        "updated_at": "2022-06-30T17:41:52.002Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 46,
+    "fields": {
+        "item_code": "LAB202206000046",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:52.816Z",
+        "updated_at": "2022-06-30T17:41:52.816Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 47,
+    "fields": {
+        "item_code": "LAB202206000047",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:53.643Z",
+        "updated_at": "2022-06-30T17:41:53.643Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 48,
+    "fields": {
+        "item_code": "LAB202206000048",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "15000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:54.421Z",
+        "updated_at": "2022-06-30T17:41:54.421Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 49,
+    "fields": {
+        "item_code": "LAB202206000049",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:55.227Z",
+        "updated_at": "2022-06-30T17:41:55.227Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 50,
+    "fields": {
+        "item_code": "LAB202206000050",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "20000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:56.062Z",
+        "updated_at": "2022-06-30T17:41:56.062Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 51,
+    "fields": {
+        "item_code": "LAB202206000051",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "7500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:56.906Z",
+        "updated_at": "2022-06-30T17:41:56.906Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 52,
+    "fields": {
+        "item_code": "LAB202206000052",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "7500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:57.770Z",
+        "updated_at": "2022-06-30T17:41:57.770Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 53,
+    "fields": {
+        "item_code": "LAB202206000053",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:58.748Z",
+        "updated_at": "2022-06-30T17:41:58.748Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 54,
+    "fields": {
+        "item_code": "LAB202206000054",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6200.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:41:59.575Z",
+        "updated_at": "2022-06-30T17:41:59.575Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 55,
+    "fields": {
+        "item_code": "LAB202206000055",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:42:00.399Z",
+        "updated_at": "2022-06-30T17:42:00.399Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 56,
+    "fields": {
+        "item_code": "LAB202206000056",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:42:01.178Z",
+        "updated_at": "2022-06-30T17:42:01.178Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 57,
+    "fields": {
+        "item_code": "LAB202206000057",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:42:01.980Z",
+        "updated_at": "2022-06-30T17:42:01.980Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 58,
+    "fields": {
+        "item_code": "LAB202206000058",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:42:02.935Z",
+        "updated_at": "2022-06-30T17:42:02.935Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 59,
+    "fields": {
+        "item_code": "LAB202206000059",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:42:03.703Z",
+        "updated_at": "2022-06-30T17:42:03.703Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 60,
+    "fields": {
+        "item_code": "LAB202206000060",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:42:04.470Z",
+        "updated_at": "2022-06-30T17:42:04.470Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 61,
+    "fields": {
+        "item_code": "LAB202206000061",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "21500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:42:05.282Z",
+        "updated_at": "2022-06-30T17:42:05.282Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 62,
+    "fields": {
+        "item_code": "LAB202206000062",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T17:42:06.060Z",
+        "updated_at": "2022-06-30T17:42:06.060Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 63,
+    "fields": {
+        "item_code": "LAB202206000063",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:03.491Z",
+        "updated_at": "2022-06-30T18:00:03.491Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 64,
+    "fields": {
+        "item_code": "LAB202206000064",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8200.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:04.293Z",
+        "updated_at": "2022-06-30T18:00:04.293Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 65,
+    "fields": {
+        "item_code": "LAB202206000065",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:05.091Z",
+        "updated_at": "2022-06-30T18:00:05.091Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 66,
+    "fields": {
+        "item_code": "LAB202206000066",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "7500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:05.875Z",
+        "updated_at": "2022-06-30T18:00:05.875Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 67,
+    "fields": {
+        "item_code": "LAB202206000067",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "70000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:06.706Z",
+        "updated_at": "2022-06-30T18:00:06.706Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 68,
+    "fields": {
+        "item_code": "LAB202206000068",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "23500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:07.481Z",
+        "updated_at": "2022-06-30T18:00:07.481Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 69,
+    "fields": {
+        "item_code": "LAB202206000069",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "12700.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:08.263Z",
+        "updated_at": "2022-06-30T18:00:08.263Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 70,
+    "fields": {
+        "item_code": "LAB202206000070",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:09.428Z",
+        "updated_at": "2022-06-30T18:00:09.428Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 71,
+    "fields": {
+        "item_code": "LAB202206000071",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:10.314Z",
+        "updated_at": "2022-06-30T18:00:10.314Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 72,
+    "fields": {
+        "item_code": "LAB202206000072",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:11.189Z",
+        "updated_at": "2022-06-30T18:00:11.190Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 73,
+    "fields": {
+        "item_code": "LAB202206000073",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:12.017Z",
+        "updated_at": "2022-06-30T18:00:12.017Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 74,
+    "fields": {
+        "item_code": "LAB202206000074",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:12.791Z",
+        "updated_at": "2022-06-30T18:00:12.791Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 75,
+    "fields": {
+        "item_code": "LAB202206000075",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:13.595Z",
+        "updated_at": "2022-06-30T18:00:13.595Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 76,
+    "fields": {
+        "item_code": "LAB202206000076",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "39500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:15.127Z",
+        "updated_at": "2022-06-30T18:00:15.127Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 77,
+    "fields": {
+        "item_code": "LAB202206000077",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "19500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:00:15.978Z",
+        "updated_at": "2022-06-30T18:00:15.978Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 78,
+    "fields": {
+        "item_code": "LAB202206000078",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "0.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:03:16.165Z",
+        "updated_at": "2022-06-30T18:03:16.165Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 79,
+    "fields": {
+        "item_code": "LAB202206000079",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "12500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:03:16.974Z",
+        "updated_at": "2022-06-30T18:03:16.974Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 80,
+    "fields": {
+        "item_code": "LAB202206000080",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "35000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:03:17.841Z",
+        "updated_at": "2022-06-30T18:03:17.841Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 81,
+    "fields": {
+        "item_code": "LAB202206000081",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "15000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:03:19.023Z",
+        "updated_at": "2022-06-30T18:03:19.023Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 82,
+    "fields": {
+        "item_code": "LAB202206000082",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "22000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:03:19.970Z",
+        "updated_at": "2022-06-30T18:03:19.970Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 83,
+    "fields": {
+        "item_code": "LAB202206000083",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "9500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:03:20.790Z",
+        "updated_at": "2022-06-30T18:03:20.790Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 84,
+    "fields": {
+        "item_code": "LAB202206000084",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "11500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:03:21.639Z",
+        "updated_at": "2022-06-30T18:03:21.639Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 85,
+    "fields": {
+        "item_code": "LAB202206000085",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:03:22.451Z",
+        "updated_at": "2022-06-30T18:03:22.451Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 86,
+    "fields": {
+        "item_code": "LAB202206000086",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "15000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:03:23.256Z",
+        "updated_at": "2022-06-30T18:03:23.256Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 87,
+    "fields": {
+        "item_code": "LAB202206000087",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "0.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:02.925Z",
+        "updated_at": "2022-06-30T18:07:02.925Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 88,
+    "fields": {
+        "item_code": "LAB202206000088",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "12500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:04.109Z",
+        "updated_at": "2022-06-30T18:07:04.109Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 89,
+    "fields": {
+        "item_code": "LAB202206000089",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "35000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:05.109Z",
+        "updated_at": "2022-06-30T18:07:05.109Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 90,
+    "fields": {
+        "item_code": "LAB202206000090",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "15000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:06.006Z",
+        "updated_at": "2022-06-30T18:07:06.006Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 91,
+    "fields": {
+        "item_code": "LAB202206000091",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "22000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:06.870Z",
+        "updated_at": "2022-06-30T18:07:06.870Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 92,
+    "fields": {
+        "item_code": "LAB202206000092",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "9500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:07.723Z",
+        "updated_at": "2022-06-30T18:07:07.723Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 93,
+    "fields": {
+        "item_code": "LAB202206000093",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "11500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:08.673Z",
+        "updated_at": "2022-06-30T18:07:08.673Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 94,
+    "fields": {
+        "item_code": "LAB202206000094",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:09.513Z",
+        "updated_at": "2022-06-30T18:07:09.513Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 95,
+    "fields": {
+        "item_code": "LAB202206000095",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "15000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:10.408Z",
+        "updated_at": "2022-06-30T18:07:10.408Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 96,
+    "fields": {
+        "item_code": "LAB202206000096",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "0.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:11.266Z",
+        "updated_at": "2022-06-30T18:07:11.267Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 97,
+    "fields": {
+        "item_code": "LAB202206000097",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "0.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:12.102Z",
+        "updated_at": "2022-06-30T18:07:12.102Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 98,
+    "fields": {
+        "item_code": "LAB202206000098",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "26000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:12.963Z",
+        "updated_at": "2022-06-30T18:07:12.963Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 99,
+    "fields": {
+        "item_code": "LAB202206000099",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:13.844Z",
+        "updated_at": "2022-06-30T18:07:13.844Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 100,
+    "fields": {
+        "item_code": "LAB202206000100",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "20000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:15.064Z",
+        "updated_at": "2022-06-30T18:07:15.064Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 101,
+    "fields": {
+        "item_code": "LAB202206000101",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "25000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:16.090Z",
+        "updated_at": "2022-06-30T18:07:16.090Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 102,
+    "fields": {
+        "item_code": "LAB202206000102",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "30000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:17.028Z",
+        "updated_at": "2022-06-30T18:07:17.028Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 103,
+    "fields": {
+        "item_code": "LAB202206000103",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "25000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:17.953Z",
+        "updated_at": "2022-06-30T18:07:17.953Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 104,
+    "fields": {
+        "item_code": "LAB202206000104",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "25000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:18.817Z",
+        "updated_at": "2022-06-30T18:07:18.817Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 105,
+    "fields": {
+        "item_code": "LAB202206000105",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "20500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:19.720Z",
+        "updated_at": "2022-06-30T18:07:19.720Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 106,
+    "fields": {
+        "item_code": "LAB202206000106",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "25000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:20.604Z",
+        "updated_at": "2022-06-30T18:07:20.604Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 107,
+    "fields": {
+        "item_code": "LAB202206000107",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "11500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:21.391Z",
+        "updated_at": "2022-06-30T18:07:21.391Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 108,
+    "fields": {
+        "item_code": "LAB202206000108",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "25000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:22.674Z",
+        "updated_at": "2022-06-30T18:07:22.674Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 109,
+    "fields": {
+        "item_code": "LAB202206000109",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:23.499Z",
+        "updated_at": "2022-06-30T18:07:23.499Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 110,
+    "fields": {
+        "item_code": "LAB202206000110",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:24.373Z",
+        "updated_at": "2022-06-30T18:07:24.373Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 111,
+    "fields": {
+        "item_code": "LAB202206000111",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "25000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:25.258Z",
+        "updated_at": "2022-06-30T18:07:25.258Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 112,
+    "fields": {
+        "item_code": "LAB202206000112",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:26.099Z",
+        "updated_at": "2022-06-30T18:07:26.099Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 113,
+    "fields": {
+        "item_code": "LAB202206000113",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "20000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:27.077Z",
+        "updated_at": "2022-06-30T18:07:27.077Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 114,
+    "fields": {
+        "item_code": "LAB202206000114",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "12000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:27.914Z",
+        "updated_at": "2022-06-30T18:07:27.914Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 115,
+    "fields": {
+        "item_code": "LAB202206000115",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:28.768Z",
+        "updated_at": "2022-06-30T18:07:28.768Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 116,
+    "fields": {
+        "item_code": "LAB202206000116",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:29.605Z",
+        "updated_at": "2022-06-30T18:07:29.605Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 117,
+    "fields": {
+        "item_code": "LAB202206000117",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:30.517Z",
+        "updated_at": "2022-06-30T18:07:30.517Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 118,
+    "fields": {
+        "item_code": "LAB202206000118",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "12500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:31.363Z",
+        "updated_at": "2022-06-30T18:07:31.363Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 119,
+    "fields": {
+        "item_code": "LAB202206000119",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "12500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:07:32.154Z",
+        "updated_at": "2022-06-30T18:07:32.154Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 120,
+    "fields": {
+        "item_code": "LAB202206000120",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "0.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:09:52.902Z",
+        "updated_at": "2022-06-30T18:09:52.902Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 121,
+    "fields": {
+        "item_code": "LAB202206000121",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:09:53.832Z",
+        "updated_at": "2022-06-30T18:09:53.832Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 122,
+    "fields": {
+        "item_code": "LAB202206000122",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:09:54.630Z",
+        "updated_at": "2022-06-30T18:09:54.630Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 123,
+    "fields": {
+        "item_code": "LAB202206000123",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:09:55.453Z",
+        "updated_at": "2022-06-30T18:09:55.453Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 124,
+    "fields": {
+        "item_code": "LAB202206000124",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:09:56.224Z",
+        "updated_at": "2022-06-30T18:09:56.224Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 125,
+    "fields": {
+        "item_code": "LAB202206000125",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:09:57.025Z",
+        "updated_at": "2022-06-30T18:09:57.025Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 126,
+    "fields": {
+        "item_code": "LAB202206000126",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:09:57.863Z",
+        "updated_at": "2022-06-30T18:09:57.863Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 127,
+    "fields": {
+        "item_code": "LAB202206000127",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "36500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:09:58.653Z",
+        "updated_at": "2022-06-30T18:09:58.653Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 128,
+    "fields": {
+        "item_code": "LAB202206000128",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "12500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:09:59.420Z",
+        "updated_at": "2022-06-30T18:09:59.420Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 129,
+    "fields": {
+        "item_code": "LAB202206000129",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "28500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:00.225Z",
+        "updated_at": "2022-06-30T18:10:00.225Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 130,
+    "fields": {
+        "item_code": "LAB202206000130",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:01.363Z",
+        "updated_at": "2022-06-30T18:10:01.364Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 131,
+    "fields": {
+        "item_code": "LAB202206000131",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:02.537Z",
+        "updated_at": "2022-06-30T18:10:02.537Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 132,
+    "fields": {
+        "item_code": "LAB202206000132",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:03.318Z",
+        "updated_at": "2022-06-30T18:10:03.318Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 133,
+    "fields": {
+        "item_code": "LAB202206000133",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:04.108Z",
+        "updated_at": "2022-06-30T18:10:04.108Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 134,
+    "fields": {
+        "item_code": "LAB202206000134",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:04.923Z",
+        "updated_at": "2022-06-30T18:10:04.923Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 135,
+    "fields": {
+        "item_code": "LAB202206000135",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:05.691Z",
+        "updated_at": "2022-06-30T18:10:05.691Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 136,
+    "fields": {
+        "item_code": "LAB202206000136",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:06.512Z",
+        "updated_at": "2022-06-30T18:10:06.512Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 137,
+    "fields": {
+        "item_code": "LAB202206000137",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:07.626Z",
+        "updated_at": "2022-06-30T18:10:07.626Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 138,
+    "fields": {
+        "item_code": "LAB202206000138",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:08.405Z",
+        "updated_at": "2022-06-30T18:10:08.405Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 139,
+    "fields": {
+        "item_code": "LAB202206000139",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:09.201Z",
+        "updated_at": "2022-06-30T18:10:09.201Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 140,
+    "fields": {
+        "item_code": "LAB202206000140",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:09.980Z",
+        "updated_at": "2022-06-30T18:10:09.980Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 141,
+    "fields": {
+        "item_code": "LAB202206000141",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:10.775Z",
+        "updated_at": "2022-06-30T18:10:10.775Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 142,
+    "fields": {
+        "item_code": "LAB202206000142",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:11.556Z",
+        "updated_at": "2022-06-30T18:10:11.556Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 143,
+    "fields": {
+        "item_code": "LAB202206000143",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:12.402Z",
+        "updated_at": "2022-06-30T18:10:12.402Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 144,
+    "fields": {
+        "item_code": "LAB202206000144",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:13.165Z",
+        "updated_at": "2022-06-30T18:10:13.165Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 145,
+    "fields": {
+        "item_code": "LAB202206000145",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:13.944Z",
+        "updated_at": "2022-06-30T18:10:13.944Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 146,
+    "fields": {
+        "item_code": "LAB202206000146",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:14.763Z",
+        "updated_at": "2022-06-30T18:10:14.763Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 147,
+    "fields": {
+        "item_code": "LAB202206000147",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:15.536Z",
+        "updated_at": "2022-06-30T18:10:15.536Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 148,
+    "fields": {
+        "item_code": "LAB202206000148",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:16.309Z",
+        "updated_at": "2022-06-30T18:10:16.309Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 149,
+    "fields": {
+        "item_code": "LAB202206000149",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:17.088Z",
+        "updated_at": "2022-06-30T18:10:17.088Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 150,
+    "fields": {
+        "item_code": "LAB202206000150",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "35000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:17.857Z",
+        "updated_at": "2022-06-30T18:10:17.857Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 151,
+    "fields": {
+        "item_code": "LAB202206000151",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:18.637Z",
+        "updated_at": "2022-06-30T18:10:18.637Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 152,
+    "fields": {
+        "item_code": "LAB202206000152",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:19.402Z",
+        "updated_at": "2022-06-30T18:10:19.402Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 153,
+    "fields": {
+        "item_code": "LAB202206000153",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:20.174Z",
+        "updated_at": "2022-06-30T18:10:20.174Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 154,
+    "fields": {
+        "item_code": "LAB202206000154",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:20.951Z",
+        "updated_at": "2022-06-30T18:10:20.951Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 155,
+    "fields": {
+        "item_code": "LAB202206000155",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:21.740Z",
+        "updated_at": "2022-06-30T18:10:21.740Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 156,
+    "fields": {
+        "item_code": "LAB202206000156",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:22.510Z",
+        "updated_at": "2022-06-30T18:10:22.510Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 157,
+    "fields": {
+        "item_code": "LAB202206000157",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:23.278Z",
+        "updated_at": "2022-06-30T18:10:23.278Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 158,
+    "fields": {
+        "item_code": "LAB202206000158",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "9000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:24.072Z",
+        "updated_at": "2022-06-30T18:10:24.072Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 159,
+    "fields": {
+        "item_code": "LAB202206000159",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "17000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:24.861Z",
+        "updated_at": "2022-06-30T18:10:24.861Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 160,
+    "fields": {
+        "item_code": "LAB202206000160",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "12000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:25.655Z",
+        "updated_at": "2022-06-30T18:10:25.655Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 161,
+    "fields": {
+        "item_code": "LAB202206000161",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:26.438Z",
+        "updated_at": "2022-06-30T18:10:26.438Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 162,
+    "fields": {
+        "item_code": "LAB202206000162",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:27.233Z",
+        "updated_at": "2022-06-30T18:10:27.233Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 163,
+    "fields": {
+        "item_code": "LAB202206000163",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:28.056Z",
+        "updated_at": "2022-06-30T18:10:28.056Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 164,
+    "fields": {
+        "item_code": "LAB202206000164",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:29.180Z",
+        "updated_at": "2022-06-30T18:10:29.180Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 165,
+    "fields": {
+        "item_code": "LAB202206000165",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:29.954Z",
+        "updated_at": "2022-06-30T18:10:29.954Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 166,
+    "fields": {
+        "item_code": "LAB202206000166",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:30.728Z",
+        "updated_at": "2022-06-30T18:10:30.728Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 167,
+    "fields": {
+        "item_code": "LAB202206000167",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:31.545Z",
+        "updated_at": "2022-06-30T18:10:31.545Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 168,
+    "fields": {
+        "item_code": "LAB202206000168",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:32.348Z",
+        "updated_at": "2022-06-30T18:10:32.348Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 169,
+    "fields": {
+        "item_code": "LAB202206000169",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:33.148Z",
+        "updated_at": "2022-06-30T18:10:33.148Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 170,
+    "fields": {
+        "item_code": "LAB202206000170",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:33.952Z",
+        "updated_at": "2022-06-30T18:10:33.952Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 171,
+    "fields": {
+        "item_code": "LAB202206000171",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:34.799Z",
+        "updated_at": "2022-06-30T18:10:34.799Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 172,
+    "fields": {
+        "item_code": "LAB202206000172",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:35.693Z",
+        "updated_at": "2022-06-30T18:10:35.693Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 173,
+    "fields": {
+        "item_code": "LAB202206000173",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:36.480Z",
+        "updated_at": "2022-06-30T18:10:36.480Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 174,
+    "fields": {
+        "item_code": "LAB202206000174",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:37.301Z",
+        "updated_at": "2022-06-30T18:10:37.301Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 175,
+    "fields": {
+        "item_code": "LAB202206000175",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:43.624Z",
+        "updated_at": "2022-06-30T18:10:43.624Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 176,
+    "fields": {
+        "item_code": "LAB202206000176",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:44.455Z",
+        "updated_at": "2022-06-30T18:10:44.455Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 177,
+    "fields": {
+        "item_code": "LAB202206000177",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:45.258Z",
+        "updated_at": "2022-06-30T18:10:45.258Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 178,
+    "fields": {
+        "item_code": "LAB202206000178",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:46.032Z",
+        "updated_at": "2022-06-30T18:10:46.032Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 179,
+    "fields": {
+        "item_code": "LAB202206000179",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:46.806Z",
+        "updated_at": "2022-06-30T18:10:46.806Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 180,
+    "fields": {
+        "item_code": "LAB202206000180",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:47.588Z",
+        "updated_at": "2022-06-30T18:10:47.588Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 181,
+    "fields": {
+        "item_code": "LAB202206000181",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:48.368Z",
+        "updated_at": "2022-06-30T18:10:48.368Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 182,
+    "fields": {
+        "item_code": "LAB202206000182",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:49.137Z",
+        "updated_at": "2022-06-30T18:10:49.137Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 183,
+    "fields": {
+        "item_code": "LAB202206000183",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:49.910Z",
+        "updated_at": "2022-06-30T18:10:49.911Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 184,
+    "fields": {
+        "item_code": "LAB202206000184",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:50.723Z",
+        "updated_at": "2022-06-30T18:10:50.723Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 185,
+    "fields": {
+        "item_code": "LAB202206000185",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:51.500Z",
+        "updated_at": "2022-06-30T18:10:51.501Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 186,
+    "fields": {
+        "item_code": "LAB202206000186",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:52.278Z",
+        "updated_at": "2022-06-30T18:10:52.278Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 187,
+    "fields": {
+        "item_code": "LAB202206000187",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:53.052Z",
+        "updated_at": "2022-06-30T18:10:53.052Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 188,
+    "fields": {
+        "item_code": "LAB202206000188",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:53.830Z",
+        "updated_at": "2022-06-30T18:10:53.830Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 189,
+    "fields": {
+        "item_code": "LAB202206000189",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:54.608Z",
+        "updated_at": "2022-06-30T18:10:54.608Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 190,
+    "fields": {
+        "item_code": "LAB202206000190",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:55.406Z",
+        "updated_at": "2022-06-30T18:10:55.406Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 191,
+    "fields": {
+        "item_code": "LAB202206000191",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "2000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:56.176Z",
+        "updated_at": "2022-06-30T18:10:56.176Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 192,
+    "fields": {
+        "item_code": "LAB202206000192",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:56.945Z",
+        "updated_at": "2022-06-30T18:10:56.945Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 193,
+    "fields": {
+        "item_code": "LAB202206000193",
+        "description": "Widal",
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:57.762Z",
+        "updated_at": "2022-07-04T18:03:38.058Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 194,
+    "fields": {
+        "item_code": "LAB202206000194",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:58.536Z",
+        "updated_at": "2022-06-30T18:10:58.536Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 195,
+    "fields": {
+        "item_code": "LAB202206000195",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:10:59.328Z",
+        "updated_at": "2022-06-30T18:10:59.328Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 196,
+    "fields": {
+        "item_code": "LAB202206000196",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:00.111Z",
+        "updated_at": "2022-06-30T18:11:00.111Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 197,
+    "fields": {
+        "item_code": "LAB202206000197",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:00.924Z",
+        "updated_at": "2022-06-30T18:11:00.924Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 198,
+    "fields": {
+        "item_code": "LAB202206000198",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:01.701Z",
+        "updated_at": "2022-06-30T18:11:01.701Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 199,
+    "fields": {
+        "item_code": "LAB202206000199",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:02.472Z",
+        "updated_at": "2022-06-30T18:11:02.472Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 200,
+    "fields": {
+        "item_code": "LAB202206000200",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:03.257Z",
+        "updated_at": "2022-06-30T18:11:03.257Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 201,
+    "fields": {
+        "item_code": "LAB202206000201",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:04.045Z",
+        "updated_at": "2022-06-30T18:11:04.045Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 202,
+    "fields": {
+        "item_code": "LAB202206000202",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:04.828Z",
+        "updated_at": "2022-06-30T18:11:04.828Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 203,
+    "fields": {
+        "item_code": "LAB202206000203",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:05.596Z",
+        "updated_at": "2022-06-30T18:11:05.597Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 204,
+    "fields": {
+        "item_code": "LAB202206000204",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "1500.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:06.736Z",
+        "updated_at": "2022-06-30T18:11:06.736Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 205,
+    "fields": {
+        "item_code": "LAB202206000205",
+        "description": "Serum TB (IgM)",
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:07.530Z",
+        "updated_at": "2022-07-06T19:05:05.651Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 206,
+    "fields": {
+        "item_code": "LAB202206000206",
+        "description": "H. pylori",
+        "cost": "0.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-06-30T18:11:08.319Z",
+        "updated_at": "2022-07-08T20:33:22.600Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 232,
+    "fields": {
+        "item_code": "IMG202207000001",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:13:43.654Z",
+        "updated_at": "2022-07-01T16:13:43.654Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 233,
+    "fields": {
+        "item_code": "IMG202207000002",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:13:49.436Z",
+        "updated_at": "2022-07-01T16:13:49.437Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 234,
+    "fields": {
+        "item_code": "IMG202207000003",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:45.277Z",
+        "updated_at": "2022-07-01T16:14:45.277Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 235,
+    "fields": {
+        "item_code": "IMG202207000004",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "15000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:46.870Z",
+        "updated_at": "2022-07-01T16:14:46.871Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 236,
+    "fields": {
+        "item_code": "IMG202207000005",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:47.767Z",
+        "updated_at": "2022-07-01T16:14:47.767Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 237,
+    "fields": {
+        "item_code": "IMG202207000006",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:48.661Z",
+        "updated_at": "2022-07-01T16:14:48.661Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 238,
+    "fields": {
+        "item_code": "IMG202207000007",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:49.898Z",
+        "updated_at": "2022-07-01T16:14:49.898Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 239,
+    "fields": {
+        "item_code": "IMG202207000008",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:50.777Z",
+        "updated_at": "2022-07-01T16:14:50.777Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 240,
+    "fields": {
+        "item_code": "IMG202207000009",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:51.616Z",
+        "updated_at": "2022-07-01T16:14:51.616Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 241,
+    "fields": {
+        "item_code": "IMG202207000010",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:52.515Z",
+        "updated_at": "2022-07-01T16:14:52.515Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 242,
+    "fields": {
+        "item_code": "IMG202207000011",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:53.389Z",
+        "updated_at": "2022-07-01T16:14:53.389Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 243,
+    "fields": {
+        "item_code": "IMG202207000012",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:54.265Z",
+        "updated_at": "2022-07-01T16:14:54.265Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 244,
+    "fields": {
+        "item_code": "IMG202207000013",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:55.152Z",
+        "updated_at": "2022-07-01T16:14:55.152Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 245,
+    "fields": {
+        "item_code": "IMG202207000014",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:55.993Z",
+        "updated_at": "2022-07-01T16:14:55.993Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 246,
+    "fields": {
+        "item_code": "IMG202207000015",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:56.856Z",
+        "updated_at": "2022-07-01T16:14:56.856Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 247,
+    "fields": {
+        "item_code": "IMG202207000016",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "3000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:57.767Z",
+        "updated_at": "2022-07-01T16:14:57.767Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 248,
+    "fields": {
+        "item_code": "IMG202207000017",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:14:58.972Z",
+        "updated_at": "2022-07-01T16:14:58.972Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 249,
+    "fields": {
+        "item_code": "IMG202207000018",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "25000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:00.177Z",
+        "updated_at": "2022-07-01T16:15:00.177Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 250,
+    "fields": {
+        "item_code": "IMG202207000019",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "15000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:01.112Z",
+        "updated_at": "2022-07-01T16:15:01.112Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 251,
+    "fields": {
+        "item_code": "IMG202207000020",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:01.970Z",
+        "updated_at": "2022-07-01T16:15:01.970Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 252,
+    "fields": {
+        "item_code": "IMG202207000021",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:02.876Z",
+        "updated_at": "2022-07-01T16:15:02.876Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 253,
+    "fields": {
+        "item_code": "IMG202207000022",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:03.860Z",
+        "updated_at": "2022-07-01T16:15:03.860Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 254,
+    "fields": {
+        "item_code": "IMG202207000023",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:05.159Z",
+        "updated_at": "2022-07-01T16:15:05.159Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 255,
+    "fields": {
+        "item_code": "IMG202207000024",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:06.113Z",
+        "updated_at": "2022-07-01T16:15:06.113Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 256,
+    "fields": {
+        "item_code": "IMG202207000025",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "5000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:07.447Z",
+        "updated_at": "2022-07-01T16:15:07.447Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 257,
+    "fields": {
+        "item_code": "IMG202207000026",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:08.751Z",
+        "updated_at": "2022-07-01T16:15:08.751Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 258,
+    "fields": {
+        "item_code": "IMG202207000027",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:09.615Z",
+        "updated_at": "2022-07-01T16:15:09.615Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 259,
+    "fields": {
+        "item_code": "IMG202207000028",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:15:10.516Z",
+        "updated_at": "2022-07-01T16:15:10.516Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 260,
+    "fields": {
+        "item_code": "IMG202207000029",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:17:04.913Z",
+        "updated_at": "2022-07-01T16:17:04.913Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 261,
+    "fields": {
+        "item_code": "IMG202207000030",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:17:05.694Z",
+        "updated_at": "2022-07-01T16:17:05.694Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 262,
+    "fields": {
+        "item_code": "IMG202207000031",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:17:06.859Z",
+        "updated_at": "2022-07-01T16:17:06.859Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 263,
+    "fields": {
+        "item_code": "IMG202207000032",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:17:07.667Z",
+        "updated_at": "2022-07-01T16:17:07.667Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 264,
+    "fields": {
+        "item_code": "IMG202207000033",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:17:08.460Z",
+        "updated_at": "2022-07-01T16:17:08.460Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 265,
+    "fields": {
+        "item_code": "IMG202207000034",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:17:09.267Z",
+        "updated_at": "2022-07-01T16:17:09.267Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 266,
+    "fields": {
+        "item_code": "IMG202207000035",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:17:10.039Z",
+        "updated_at": "2022-07-01T16:17:10.039Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 267,
+    "fields": {
+        "item_code": "IMG202207000036",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:12.850Z",
+        "updated_at": "2022-07-01T16:18:12.850Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 268,
+    "fields": {
+        "item_code": "IMG202207000037",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "18000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:13.638Z",
+        "updated_at": "2022-07-01T16:18:13.638Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 269,
+    "fields": {
+        "item_code": "IMG202207000038",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "8000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:14.796Z",
+        "updated_at": "2022-07-01T16:18:14.796Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 270,
+    "fields": {
+        "item_code": "IMG202207000039",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:15.966Z",
+        "updated_at": "2022-07-01T16:18:15.966Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 271,
+    "fields": {
+        "item_code": "IMG202207000040",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:16.748Z",
+        "updated_at": "2022-07-01T16:18:16.748Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 272,
+    "fields": {
+        "item_code": "IMG202207000041",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:17.536Z",
+        "updated_at": "2022-07-01T16:18:17.536Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 273,
+    "fields": {
+        "item_code": "IMG202207000042",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "10000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:18.332Z",
+        "updated_at": "2022-07-01T16:18:18.332Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 274,
+    "fields": {
+        "item_code": "IMG202207000043",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:19.462Z",
+        "updated_at": "2022-07-01T16:18:19.462Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 275,
+    "fields": {
+        "item_code": "IMG202207000044",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:20.235Z",
+        "updated_at": "2022-07-01T16:18:20.235Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 276,
+    "fields": {
+        "item_code": "IMG202207000045",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:21.391Z",
+        "updated_at": "2022-07-01T16:18:21.391Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 277,
+    "fields": {
+        "item_code": "IMG202207000046",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:22.201Z",
+        "updated_at": "2022-07-01T16:18:22.201Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 278,
+    "fields": {
+        "item_code": "IMG202207000047",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "4000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:23.760Z",
+        "updated_at": "2022-07-01T16:18:23.761Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 279,
+    "fields": {
+        "item_code": "IMG202207000048",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "18000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:24.922Z",
+        "updated_at": "2022-07-01T16:18:24.922Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 280,
+    "fields": {
+        "item_code": "IMG202207000049",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "35000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:25.721Z",
+        "updated_at": "2022-07-01T16:18:25.721Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 281,
+    "fields": {
+        "item_code": "IMG202207000050",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "15000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:26.524Z",
+        "updated_at": "2022-07-01T16:18:26.524Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 282,
+    "fields": {
+        "item_code": "IMG202207000051",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "35000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:27.328Z",
+        "updated_at": "2022-07-01T16:18:27.328Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 283,
+    "fields": {
+        "item_code": "IMG202207000052",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "25000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:28.141Z",
+        "updated_at": "2022-07-01T16:18:28.141Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 284,
+    "fields": {
+        "item_code": "IMG202207000053",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "35000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:29.300Z",
+        "updated_at": "2022-07-01T16:18:29.300Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 285,
+    "fields": {
+        "item_code": "IMG202207000054",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "30000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:30.090Z",
+        "updated_at": "2022-07-01T16:18:30.090Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 286,
+    "fields": {
+        "item_code": "IMG202207000055",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "40000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:30.936Z",
+        "updated_at": "2022-07-01T16:18:30.936Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 287,
+    "fields": {
+        "item_code": "IMG202207000056",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "35000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:31.712Z",
+        "updated_at": "2022-07-01T16:18:31.712Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 288,
+    "fields": {
+        "item_code": "IMG202207000057",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "6000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:32.586Z",
+        "updated_at": "2022-07-01T16:18:32.586Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 289,
+    "fields": {
+        "item_code": "IMG202207000058",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "35000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:33.758Z",
+        "updated_at": "2022-07-01T16:18:33.758Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 290,
+    "fields": {
+        "item_code": "IMG202207000059",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "35000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:18:34.627Z",
+        "updated_at": "2022-07-01T16:18:34.627Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 291,
+    "fields": {
+        "item_code": "IMG202207000060",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "80000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:19:49.384Z",
+        "updated_at": "2022-07-01T16:19:49.384Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 292,
+    "fields": {
+        "item_code": "IMG202207000061",
+        "description": null,
+        "cost": "0.00",
+        "selling_price": "80000.00",
+        "module": "Imaging",
+        "created_at": "2022-07-01T16:19:50.611Z",
+        "updated_at": "2022-07-01T16:19:50.611Z",
+        "created_by": {},
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 293,
+    "fields": {
+        "item_code": "ENC202207000062",
+        "description": "test",
+        "cost": "0.00",
+        "selling_price": "0.00",
+        "module": "Encounter",
+        "created_at": "2022-07-01T20:54:34.947Z",
+        "updated_at": "2022-07-01T20:54:34.947Z",
+        "created_by": {
+            "id": 1,
+            "email": "admin@gmail.com",
+            "username": "admin",
+            "last_name": "",
+            "first_name": ""
+        },
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 294,
+    "fields": {
+        "item_code": "ENC202207000063",
+        "description": "test",
+        "cost": "0.00",
+        "selling_price": "30000.00",
+        "module": "Encounter",
+        "created_at": "2022-07-01T21:02:04.226Z",
+        "updated_at": "2022-07-01T21:02:04.226Z",
+        "created_by": {
+            "id": 1,
+            "email": "admin@gmail.com",
+            "username": "admin",
+            "last_name": "",
+            "first_name": ""
+        },
+        "updated_by": {}
+    }
+},
+{
+    "model": "finance.billableitem",
+    "pk": 295,
+    "fields": {
+        "item_code": "LAB202207000064",
+        "description": "xyz",
+        "cost": "20.00",
+        "selling_price": "1000.00",
+        "module": "Laboratory",
+        "created_at": "2022-07-04T16:04:57.940Z",
+        "updated_at": "2022-07-05T13:51:13.951Z",
+        "created_by": {
+            "id": 1,
+            "email": "admin@gmail.com",
+            "username": "admin",
+            "last_name": "James",
+            "first_name": "Dimeji"
+        },
+        "updated_by": {}
+    }
+}
+]
