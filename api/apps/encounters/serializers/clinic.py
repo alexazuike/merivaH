@@ -35,7 +35,8 @@ class ClinicSerializer(serializers.ModelSerializer):
         user = self.context["request"].user
         user_data = generics_utils.trim_user_data(generics_utils.model_to_dict(user))
 
-        clinic: models.Clinic = models.Clinic.objects.create(**validated_data)
+        # clinic: models.Clinic = models.Clinic.objects.create(**validated_data)
+        clinic = models.Clinic(**validated_data)
         clinic._created_by = user_data
         clinic._bill_price = bill_price
         clinic._cost_price = cost_price
